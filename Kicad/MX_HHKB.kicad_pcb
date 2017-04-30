@@ -3,7 +3,7 @@
   (general
     (links 462)
     (no_connects 0)
-    (area 66.599999 97.556249 352.500001 192.956251)
+    (area 51.858746 93.3808 361.492859 201.921367)
     (thickness 1.6)
     (drawings 10)
     (tracks 864)
@@ -13,6 +13,13 @@
   )
 
   (page A3)
+  (title_block
+    (title "MX/Alps HHKB")
+    (date 2017-04-30)
+    (rev A)
+    (company DarKou)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)

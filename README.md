@@ -3,6 +3,10 @@ Mechanical keyboard based on HHKB layout
 
 ## About
 
+[Layout]: layout.png "Layout"
+
+[PCB]: Kicad/MX_HHKB.png "PCB"
+
 ## Third party
 Libraries and Footprint are provided by Hasu and /u/techieee.
 

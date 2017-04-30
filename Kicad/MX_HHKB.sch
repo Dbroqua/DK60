@@ -1989,4 +1989,20 @@ Wire Wire Line
 	2000 6550 2000 6700
 Wire Wire Line
 	3000 6550 2000 6550
+$Comp
+L KEYSW K61
+U 1 1 59062EBC
+P 1050 2150
+F 0 "K61" H 1000 2150 60  0000 C CNN
+F 1 "Ctrl" H 1050 2050 60  0000 C CNN
+F 2 "Footprint:Mx_Alps_175_STEPPED" H 1050 2150 60  0001 C CNN
+F 3 "" H 1050 2150 60  0000 C CNN
+	1    1050 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	750  2150 750  2300
+Connection ~ 750  2300
+Connection ~ 750  2150
+Connection ~ 1350 2150
 $EndSCHEMATC

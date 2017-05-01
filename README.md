@@ -5,7 +5,7 @@ Mechanical keyboard based on HHKB layout
 
 Just another fun(?) keyboard with HHKB layout. Designed to fit in some 60% Poker cases.
 
-Can accept normal caps lock or stepped. No Backlight or RGB leds.
+Can accept normal caps lock or stepped. No Backlight or RGB leds, just 2 leds on Caps lock and Esc.
 
 All caps are in standard size to increase choice of keysets!
 
@@ -31,14 +31,14 @@ All firmware we can drive an ATMEGA32U4 (QMK, TMK and other forks)
 * Col11: D1
 * Col12: D2
 * Row0: C6
-* Row1: B4
-* Row2: B5
+* Row1: B5
+* Row2: B4
 * Row3: D6
+* Esc led: F0
+* Caps led: F1
 
 ### Unused PIN:
 * E6
-* F0
-* F1
 * F4
 * F5
 * F6

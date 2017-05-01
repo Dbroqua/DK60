@@ -197,7 +197,7 @@ F 1 "VCC" H 1950 6100 50  0000 C CNN
 F 2 "" H 1950 5950 50  0001 C CNN
 F 3 "" H 1950 5950 50  0001 C CNN
 	1    1950 5950
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
@@ -208,7 +208,7 @@ F 1 "GND" H 1950 6000 50  0000 C CNN
 F 2 "" H 1950 6150 50  0001 C CNN
 F 3 "" H 1950 6150 50  0001 C CNN
 	1    1950 6150
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R2
@@ -1591,23 +1591,23 @@ Text Label 9050 850  0    60   ~ 0
 Col11
 Text Label 9750 850  0    60   ~ 0
 Col12
-Text Label 2750 5750 0    60   ~ 0
+Text Label 2750 5950 0    60   ~ 0
 Col1
 Text Label 2750 5850 0    60   ~ 0
 Col2
-Text Label 2750 5950 0    60   ~ 0
+Text Label 2750 5750 0    60   ~ 0
 Col3
-Text Label 5150 6550 0    60   ~ 0
+Text Label 2750 7050 0    60   ~ 0
 Col4
-Text Label 5150 6450 0    60   ~ 0
+Text Label 5150 6850 0    60   ~ 0
 Col5
 Text Label 5150 6350 0    60   ~ 0
 Col6
 Text Label 2750 6050 0    60   ~ 0
 Col7
-Text Label 5150 6250 0    60   ~ 0
-Col8
 Text Label 5150 6150 0    60   ~ 0
+Col8
+Text Label 2750 6950 0    60   ~ 0
 Col9
 Text Label 2750 6650 0    60   ~ 0
 Col10
@@ -1625,11 +1625,11 @@ Text Label 9900 3200 0    60   ~ 0
 Row3
 Text Label 9900 3800 0    60   ~ 0
 Row4
-Text Label 2750 6950 0    60   ~ 0
+Text Label 5150 6250 0    60   ~ 0
 Row0
-Text Label 5150 6850 0    60   ~ 0
+Text Label 5150 6550 0    60   ~ 0
 Row1
-Text Label 2750 7050 0    60   ~ 0
+Text Label 5150 6450 0    60   ~ 0
 Row2
 Text Label 5150 6750 0    60   ~ 0
 Row3
@@ -2005,4 +2005,6 @@ Wire Wire Line
 Connection ~ 750  2300
 Connection ~ 750  2150
 Connection ~ 1350 2150
+Connection ~ 1950 5950
+Connection ~ 1950 6150
 $EndSCHEMATC

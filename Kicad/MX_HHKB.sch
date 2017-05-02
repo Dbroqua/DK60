@@ -1597,17 +1597,17 @@ Text Label 2750 5850 0    60   ~ 0
 Col2
 Text Label 2750 5750 0    60   ~ 0
 Col3
-Text Label 2750 7050 0    60   ~ 0
+Text Label 2750 6950 0    60   ~ 0
 Col4
-Text Label 5150 6850 0    60   ~ 0
+Text Label 2750 7050 0    60   ~ 0
 Col5
-Text Label 5150 6350 0    60   ~ 0
+Text Label 5150 6450 0    60   ~ 0
 Col6
 Text Label 2750 6050 0    60   ~ 0
 Col7
-Text Label 5150 6150 0    60   ~ 0
+Text Label 5150 6250 0    60   ~ 0
 Col8
-Text Label 2750 6950 0    60   ~ 0
+Text Label 5150 6150 0    60   ~ 0
 Col9
 Text Label 2750 6650 0    60   ~ 0
 Col10
@@ -1625,15 +1625,15 @@ Text Label 9900 3200 0    60   ~ 0
 Row3
 Text Label 9900 3800 0    60   ~ 0
 Row4
-Text Label 5150 6250 0    60   ~ 0
+Text Label 5150 6350 0    60   ~ 0
 Row0
-Text Label 5150 6450 0    60   ~ 0
-Row1
 Text Label 5150 6550 0    60   ~ 0
+Row1
+Text Label 5150 6650 0    60   ~ 0
 Row2
 Text Label 5150 6750 0    60   ~ 0
 Row3
-Text Label 5150 6650 0    60   ~ 0
+Text Label 5150 6850 0    60   ~ 0
 Row4
 $Comp
 L ATMEGA32U4 U0
@@ -2075,7 +2075,7 @@ Text Label 10000 5350 0    60   ~ 0
 ESC_LED
 Text Label 5150 5250 0    60   ~ 0
 ESC_LED
-Text Label 5150 5350 0    60   ~ 0
+Text Label 3000 4950 0    60   ~ 0
 CAPS_LED
 $Comp
 L GND #PWR010

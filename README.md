@@ -13,6 +13,11 @@ All caps are in standard size to increase choice of keysets!
 
 ![PCB](./Kicad/MX_HHKB.png "PCB")
 
+Bottom row:
+* 1U - 1.5U - 6.25U - 1.5U - 1U
+* 1U - 1.5U - 6U - 1.5U - 1U
+* 1U - 1.25U - 7U - 1.25U - 1U
+
 ## Firmware
 All firmware we can drive an ATMEGA32U4 (QMK, TMK and other forks).
 

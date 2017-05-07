@@ -1,7 +1,7 @@
-(module Mx_Alps_700 (layer F.Cu) (tedit 581A55DC)
+(module Mx_Alps_700 (layer F.Cu) (tedit 590F9CCD)
   (descr MXALPS)
   (tags MXALPS)
-  (fp_text reference >NAME (at 0 3.175) (layer F.SilkS)
+  (fp_text reference >NAME (at 0 7.62) (layer F.SilkS)
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
   )
   (fp_text value >VALUE (at 0 5.08) (layer F.SilkS) hide

@@ -1,10 +1,10 @@
-(module Mx_Alps_150 (layer F.Cu) (tedit 590F94D7)
+(module Mx_Alps_150 (layer F.Cu) (tedit 591703DF)
   (descr MXALPS)
   (tags MXALPS)
-  (fp_text reference >NAME (at 0 7.62) (layer B.SilkS)
+  (fp_text reference >NAME (at 0 4) (layer B.SilkS) hide
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
-  (fp_text value >VALUE (at 0 5.08) (layer B.SilkS) hide
+  (fp_text value >VALUE (at 0 8) (layer B.SilkS)
     (effects (font (thickness 0.3048)) (justify mirror))
   )
   (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))

@@ -3,13 +3,15 @@ Mechanical keyboard based on HHKB layout withor without Trackpoint.
 
 ## About
 
-Just another fun(?) keyboard with HHKB layout. Designed to fit in some 60% Poker cases (except the TP version).
+Just another fun(?) keyboard with HHKB layout.
 
 Can accept normal caps lock or stepped. No Backlight or RGB leds, just 2 leds on Caps lock and Esc.
 
 All caps are in standard size to increase choice of keysets!
 
 ## DK60
+Designed to fit in some 60% Poker cases.
+
 ![Layout](./Previews/DK60.png "Layout")
 
 ![PCB](./Previews/DK60-PCB.png "PCB")
@@ -20,10 +22,14 @@ Bottom row:
 * 1U - 1.25U - 7U - 1.25U - 1U
 
 ## DK60TP
-:warning: Still in development
+:warning: Still in development :warning:
+
+Need a custom case...
 
 Extended version of DK60 with integrated IBM Trackpoint.
 ![Layout](./Previews/DK60TP.png "Layout")
+
+![PCB](./Previews/DK60TP-PCB.png "PCB")
 
 Bottom row:
 * 1U - 1.5U - 6U - 1.5U - 1U

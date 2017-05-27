@@ -30,7 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:keyboard_parts
 LIBS:mkl27z256vfm4
-LIBS:MX_HHKB-cache
+LIBS:DK60-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -54,7 +54,7 @@ F 1 "XTAL_GND" H 1600 6500 60  0000 C CNN
 F 2 "Footprint:FA-238" H 1600 6650 60  0001 C CNN
 F 3 "" H 1600 6650 60  0000 C CNN
 	1    1600 6650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C1
@@ -65,7 +65,7 @@ F 1 "22p" H 1210 6720 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1200 6800 50  0001 C CNN
 F 3 "" H 1200 6800 50  0001 C CNN
 	1    1200 6800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C2
@@ -76,7 +76,7 @@ F 1 "22p" H 2010 6720 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2000 6800 50  0001 C CNN
 F 3 "" H 2000 6800 50  0001 C CNN
 	1    2000 6800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR01
@@ -87,7 +87,7 @@ F 1 "GND" H 1600 6850 50  0000 C CNN
 F 2 "" H 1600 7000 50  0001 C CNN
 F 3 "" H 1600 7000 50  0001 C CNN
 	1    1600 7000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR02
@@ -98,7 +98,7 @@ F 1 "VCC" H 7100 5300 50  0000 C CNN
 F 2 "" H 7100 5150 50  0001 C CNN
 F 3 "" H 7100 5150 50  0001 C CNN
 	1    7100 5150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C3
@@ -109,7 +109,7 @@ F 1 "0.1u" H 7110 5270 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7100 5350 50  0001 C CNN
 F 3 "" H 7100 5350 50  0001 C CNN
 	1    7100 5350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C4
@@ -120,7 +120,7 @@ F 1 "0.1u" H 7310 5270 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7300 5350 50  0001 C CNN
 F 3 "" H 7300 5350 50  0001 C CNN
 	1    7300 5350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C7
@@ -131,7 +131,7 @@ F 1 "4.7u" H 7910 5270 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7900 5350 50  0001 C CNN
 F 3 "" H 7900 5350 50  0001 C CNN
 	1    7900 5350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C5
@@ -142,7 +142,7 @@ F 1 "0.1u" H 7510 5270 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7500 5350 50  0001 C CNN
 F 3 "" H 7500 5350 50  0001 C CNN
 	1    7500 5350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C6
@@ -153,7 +153,7 @@ F 1 "0.1u" H 7710 5270 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7700 5350 50  0001 C CNN
 F 3 "" H 7700 5350 50  0001 C CNN
 	1    7700 5350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR03
@@ -164,7 +164,7 @@ F 1 "GND" H 7100 5400 50  0000 C CNN
 F 2 "" H 7100 5550 50  0001 C CNN
 F 3 "" H 7100 5550 50  0001 C CNN
 	1    7100 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SW_PUSH SW1
@@ -175,7 +175,7 @@ F 1 "SW_PUSH" H 2300 6070 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_TL3342" H 2300 6150 60  0001 C CNN
 F 3 "" H 2300 6150 60  0000 C CNN
 	1    2300 6150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R1
@@ -186,7 +186,7 @@ F 1 "10K" V 2350 5950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2280 5950 50  0001 C CNN
 F 3 "" H 2350 5950 50  0001 C CNN
 	1    2350 5950
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L VCC #PWR04
@@ -197,7 +197,7 @@ F 1 "VCC" H 1950 6100 50  0000 C CNN
 F 2 "" H 1950 5950 50  0001 C CNN
 F 3 "" H 1950 5950 50  0001 C CNN
 	1    1950 5950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR05
@@ -208,7 +208,7 @@ F 1 "GND" H 1950 6000 50  0000 C CNN
 F 2 "" H 1950 6150 50  0001 C CNN
 F 3 "" H 1950 6150 50  0001 C CNN
 	1    1950 6150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R2
@@ -219,7 +219,7 @@ F 1 "10K" V 5700 6050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5630 6050 50  0001 C CNN
 F 3 "" H 5700 6050 50  0001 C CNN
 	1    5700 6050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L GND #PWR06
@@ -230,7 +230,7 @@ F 1 "GND" H 5950 5900 50  0000 C CNN
 F 2 "" H 5950 6050 50  0001 C CNN
 F 3 "" H 5950 6050 50  0001 C CNN
 	1    5950 6050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR07
@@ -241,7 +241,7 @@ F 1 "GND" H 2050 5400 50  0000 C CNN
 F 2 "" H 2050 5550 50  0001 C CNN
 F 3 "" H 2050 5550 50  0001 C CNN
 	1    2050 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K1
@@ -252,7 +252,7 @@ F 1 "K00" H 1050 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 1050 1100 60  0001 C CNN
 F 3 "" H 1050 1100 60  0000 C CNN
 	1    1050 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D1
@@ -263,7 +263,7 @@ F 1 "D00" H 750 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 750 1250 50  0001 C CNN
 F 3 "" H 750 1250 50  0001 C CNN
 	1    750  1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L KEYSW K2
@@ -274,7 +274,7 @@ F 1 "K01" H 1750 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 1750 1100 60  0001 C CNN
 F 3 "" H 1750 1100 60  0000 C CNN
 	1    1750 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K3
@@ -285,7 +285,7 @@ F 1 "K02" H 2450 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 2450 1100 60  0001 C CNN
 F 3 "" H 2450 1100 60  0000 C CNN
 	1    2450 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K4
@@ -296,7 +296,7 @@ F 1 "K03" H 3150 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 3150 1100 60  0001 C CNN
 F 3 "" H 3150 1100 60  0000 C CNN
 	1    3150 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K5
@@ -307,7 +307,7 @@ F 1 "K04" H 3850 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 3850 1100 60  0001 C CNN
 F 3 "" H 3850 1100 60  0000 C CNN
 	1    3850 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K6
@@ -318,7 +318,7 @@ F 1 "K05" H 4550 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 4550 1100 60  0001 C CNN
 F 3 "" H 4550 1100 60  0000 C CNN
 	1    4550 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K7
@@ -329,7 +329,7 @@ F 1 "K06" H 5250 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 5250 1100 60  0001 C CNN
 F 3 "" H 5250 1100 60  0000 C CNN
 	1    5250 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K8
@@ -340,7 +340,7 @@ F 1 "K07" H 5950 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 5950 1100 60  0001 C CNN
 F 3 "" H 5950 1100 60  0000 C CNN
 	1    5950 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K9
@@ -351,7 +351,7 @@ F 1 "K08" H 6650 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 6650 1100 60  0001 C CNN
 F 3 "" H 6650 1100 60  0000 C CNN
 	1    6650 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K10
@@ -362,7 +362,7 @@ F 1 "K09" H 7350 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 7350 1100 60  0001 C CNN
 F 3 "" H 7350 1100 60  0000 C CNN
 	1    7350 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K11
@@ -373,7 +373,7 @@ F 1 "K0A" H 8050 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 8050 1100 60  0001 C CNN
 F 3 "" H 8050 1100 60  0000 C CNN
 	1    8050 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K12
@@ -384,7 +384,7 @@ F 1 "K0B" H 8750 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 8750 1100 60  0001 C CNN
 F 3 "" H 8750 1100 60  0000 C CNN
 	1    8750 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K13
@@ -395,7 +395,7 @@ F 1 "K0C" H 9450 1000 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 9450 1100 60  0001 C CNN
 F 3 "" H 9450 1100 60  0000 C CNN
 	1    9450 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D2
@@ -406,7 +406,7 @@ F 1 "D01" H 1450 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 1450 1250 50  0001 C CNN
 F 3 "" H 1450 1250 50  0001 C CNN
 	1    1450 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D3
@@ -417,7 +417,7 @@ F 1 "D02" H 2150 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 2150 1250 50  0001 C CNN
 F 3 "" H 2150 1250 50  0001 C CNN
 	1    2150 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D4
@@ -428,7 +428,7 @@ F 1 "D03" H 2850 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 2850 1250 50  0001 C CNN
 F 3 "" H 2850 1250 50  0001 C CNN
 	1    2850 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D5
@@ -439,7 +439,7 @@ F 1 "D04" H 3550 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 3550 1250 50  0001 C CNN
 F 3 "" H 3550 1250 50  0001 C CNN
 	1    3550 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D6
@@ -450,7 +450,7 @@ F 1 "D05" H 4250 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 4250 1250 50  0001 C CNN
 F 3 "" H 4250 1250 50  0001 C CNN
 	1    4250 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D7
@@ -461,7 +461,7 @@ F 1 "D06" H 4950 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 4950 1250 50  0001 C CNN
 F 3 "" H 4950 1250 50  0001 C CNN
 	1    4950 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D8
@@ -472,7 +472,7 @@ F 1 "D07" H 5650 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 5650 1250 50  0001 C CNN
 F 3 "" H 5650 1250 50  0001 C CNN
 	1    5650 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D9
@@ -483,7 +483,7 @@ F 1 "D08" H 6350 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 6350 1250 50  0001 C CNN
 F 3 "" H 6350 1250 50  0001 C CNN
 	1    6350 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D10
@@ -494,7 +494,7 @@ F 1 "D09" H 7050 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 7050 1250 50  0001 C CNN
 F 3 "" H 7050 1250 50  0001 C CNN
 	1    7050 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D11
@@ -505,7 +505,7 @@ F 1 "D0A" H 7750 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 7750 1250 50  0001 C CNN
 F 3 "" H 7750 1250 50  0001 C CNN
 	1    7750 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D12
@@ -516,7 +516,7 @@ F 1 "D0B" H 8450 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 8450 1250 50  0001 C CNN
 F 3 "" H 8450 1250 50  0001 C CNN
 	1    8450 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D13
@@ -527,7 +527,7 @@ F 1 "D0C" H 9150 1150 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 9150 1250 50  0001 C CNN
 F 3 "" H 9150 1250 50  0001 C CNN
 	1    9150 1250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L KEYSW K14
@@ -538,7 +538,7 @@ F 1 "K10" H 1050 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_150" H 1050 1700 60  0001 C CNN
 F 3 "" H 1050 1700 60  0000 C CNN
 	1    1050 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K15
@@ -549,7 +549,7 @@ F 1 "K11" H 1750 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 1750 1700 60  0001 C CNN
 F 3 "" H 1750 1700 60  0000 C CNN
 	1    1750 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K16
@@ -560,7 +560,7 @@ F 1 "K12" H 2450 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 2450 1700 60  0001 C CNN
 F 3 "" H 2450 1700 60  0000 C CNN
 	1    2450 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K17
@@ -571,7 +571,7 @@ F 1 "K13" H 3150 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 3150 1700 60  0001 C CNN
 F 3 "" H 3150 1700 60  0000 C CNN
 	1    3150 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K18
@@ -582,7 +582,7 @@ F 1 "K14" H 3850 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 3850 1700 60  0001 C CNN
 F 3 "" H 3850 1700 60  0000 C CNN
 	1    3850 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K19
@@ -593,7 +593,7 @@ F 1 "K15" H 4550 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 4550 1700 60  0001 C CNN
 F 3 "" H 4550 1700 60  0000 C CNN
 	1    4550 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K20
@@ -604,7 +604,7 @@ F 1 "K16" H 5250 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 5250 1700 60  0001 C CNN
 F 3 "" H 5250 1700 60  0000 C CNN
 	1    5250 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K21
@@ -615,7 +615,7 @@ F 1 "K17" H 5950 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 5950 1700 60  0001 C CNN
 F 3 "" H 5950 1700 60  0000 C CNN
 	1    5950 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K22
@@ -626,7 +626,7 @@ F 1 "K18" H 6650 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 6650 1700 60  0001 C CNN
 F 3 "" H 6650 1700 60  0000 C CNN
 	1    6650 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K23
@@ -637,7 +637,7 @@ F 1 "K19" H 7350 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 7350 1700 60  0001 C CNN
 F 3 "" H 7350 1700 60  0000 C CNN
 	1    7350 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K24
@@ -648,7 +648,7 @@ F 1 "K1A" H 8050 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 8050 1700 60  0001 C CNN
 F 3 "" H 8050 1700 60  0000 C CNN
 	1    8050 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K25
@@ -659,7 +659,7 @@ F 1 "K1B" H 8750 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 8750 1700 60  0001 C CNN
 F 3 "" H 8750 1700 60  0000 C CNN
 	1    8750 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K26
@@ -670,7 +670,7 @@ F 1 "K1C" H 9450 1600 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 9450 1700 60  0001 C CNN
 F 3 "" H 9450 1700 60  0000 C CNN
 	1    9450 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D14
@@ -681,7 +681,7 @@ F 1 "D10" H 750 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 750 1850 50  0001 C CNN
 F 3 "" H 750 1850 50  0001 C CNN
 	1    750  1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D15
@@ -692,7 +692,7 @@ F 1 "D11" H 1450 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 1450 1850 50  0001 C CNN
 F 3 "" H 1450 1850 50  0001 C CNN
 	1    1450 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D16
@@ -703,7 +703,7 @@ F 1 "D12" H 2150 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 2150 1850 50  0001 C CNN
 F 3 "" H 2150 1850 50  0001 C CNN
 	1    2150 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D17
@@ -714,7 +714,7 @@ F 1 "D13" H 2850 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 2850 1850 50  0001 C CNN
 F 3 "" H 2850 1850 50  0001 C CNN
 	1    2850 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D18
@@ -725,7 +725,7 @@ F 1 "D14" H 3550 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 3550 1850 50  0001 C CNN
 F 3 "" H 3550 1850 50  0001 C CNN
 	1    3550 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D19
@@ -736,7 +736,7 @@ F 1 "D15" H 4250 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 4250 1850 50  0001 C CNN
 F 3 "" H 4250 1850 50  0001 C CNN
 	1    4250 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D20
@@ -747,7 +747,7 @@ F 1 "D16" H 4950 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 4950 1850 50  0001 C CNN
 F 3 "" H 4950 1850 50  0001 C CNN
 	1    4950 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D21
@@ -758,7 +758,7 @@ F 1 "D17" H 5650 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 5650 1850 50  0001 C CNN
 F 3 "" H 5650 1850 50  0001 C CNN
 	1    5650 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D22
@@ -769,7 +769,7 @@ F 1 "D18" H 6350 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 6350 1850 50  0001 C CNN
 F 3 "" H 6350 1850 50  0001 C CNN
 	1    6350 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D23
@@ -780,7 +780,7 @@ F 1 "D19" H 7050 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 7050 1850 50  0001 C CNN
 F 3 "" H 7050 1850 50  0001 C CNN
 	1    7050 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D24
@@ -791,7 +791,7 @@ F 1 "D1A" H 7750 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 7750 1850 50  0001 C CNN
 F 3 "" H 7750 1850 50  0001 C CNN
 	1    7750 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D25
@@ -802,7 +802,7 @@ F 1 "D1B" H 8450 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 8450 1850 50  0001 C CNN
 F 3 "" H 8450 1850 50  0001 C CNN
 	1    8450 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D26
@@ -813,7 +813,7 @@ F 1 "D1C" H 9150 1750 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 9150 1850 50  0001 C CNN
 F 3 "" H 9150 1850 50  0001 C CNN
 	1    9150 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L KEYSW K27
@@ -824,7 +824,7 @@ F 1 "K20" H 1050 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_175" H 1050 2300 60  0001 C CNN
 F 3 "" H 1050 2300 60  0000 C CNN
 	1    1050 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K28
@@ -835,7 +835,7 @@ F 1 "K21" H 1750 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 1750 2300 60  0001 C CNN
 F 3 "" H 1750 2300 60  0000 C CNN
 	1    1750 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K29
@@ -846,7 +846,7 @@ F 1 "K22" H 2450 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 2450 2300 60  0001 C CNN
 F 3 "" H 2450 2300 60  0000 C CNN
 	1    2450 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K30
@@ -857,7 +857,7 @@ F 1 "K23" H 3150 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 3150 2300 60  0001 C CNN
 F 3 "" H 3150 2300 60  0000 C CNN
 	1    3150 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K31
@@ -868,7 +868,7 @@ F 1 "K24" H 3850 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 3850 2300 60  0001 C CNN
 F 3 "" H 3850 2300 60  0000 C CNN
 	1    3850 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K32
@@ -879,7 +879,7 @@ F 1 "K25" H 4550 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 4550 2300 60  0001 C CNN
 F 3 "" H 4550 2300 60  0000 C CNN
 	1    4550 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K33
@@ -890,7 +890,7 @@ F 1 "K26" H 5250 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 5250 2300 60  0001 C CNN
 F 3 "" H 5250 2300 60  0000 C CNN
 	1    5250 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K34
@@ -901,7 +901,7 @@ F 1 "K27" H 5950 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 5950 2300 60  0001 C CNN
 F 3 "" H 5950 2300 60  0000 C CNN
 	1    5950 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K35
@@ -912,7 +912,7 @@ F 1 "K28" H 6650 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 6650 2300 60  0001 C CNN
 F 3 "" H 6650 2300 60  0000 C CNN
 	1    6650 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K36
@@ -923,7 +923,7 @@ F 1 "K29" H 7350 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 7350 2300 60  0001 C CNN
 F 3 "" H 7350 2300 60  0000 C CNN
 	1    7350 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K37
@@ -934,7 +934,7 @@ F 1 "K2A" H 8050 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 8050 2300 60  0001 C CNN
 F 3 "" H 8050 2300 60  0000 C CNN
 	1    8050 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K38
@@ -945,7 +945,7 @@ F 1 "K2B" H 8750 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 8750 2300 60  0001 C CNN
 F 3 "" H 8750 2300 60  0000 C CNN
 	1    8750 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K39
@@ -956,7 +956,7 @@ F 1 "K2C" H 9450 2200 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_225" H 9450 2300 60  0001 C CNN
 F 3 "" H 9450 2300 60  0000 C CNN
 	1    9450 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D27
@@ -967,7 +967,7 @@ F 1 "D20" H 750 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 750 2450 50  0001 C CNN
 F 3 "" H 750 2450 50  0001 C CNN
 	1    750  2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D28
@@ -978,7 +978,7 @@ F 1 "D21" H 1450 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 1450 2450 50  0001 C CNN
 F 3 "" H 1450 2450 50  0001 C CNN
 	1    1450 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D29
@@ -989,7 +989,7 @@ F 1 "D22" H 2150 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 2150 2450 50  0001 C CNN
 F 3 "" H 2150 2450 50  0001 C CNN
 	1    2150 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D30
@@ -1000,7 +1000,7 @@ F 1 "D23" H 2850 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 2850 2450 50  0001 C CNN
 F 3 "" H 2850 2450 50  0001 C CNN
 	1    2850 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D31
@@ -1011,7 +1011,7 @@ F 1 "D24" H 3550 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 3550 2450 50  0001 C CNN
 F 3 "" H 3550 2450 50  0001 C CNN
 	1    3550 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D32
@@ -1022,7 +1022,7 @@ F 1 "D25" H 4250 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 4250 2450 50  0001 C CNN
 F 3 "" H 4250 2450 50  0001 C CNN
 	1    4250 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D33
@@ -1033,7 +1033,7 @@ F 1 "D26" H 4950 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 4950 2450 50  0001 C CNN
 F 3 "" H 4950 2450 50  0001 C CNN
 	1    4950 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D34
@@ -1044,7 +1044,7 @@ F 1 "D27" H 5650 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 5650 2450 50  0001 C CNN
 F 3 "" H 5650 2450 50  0001 C CNN
 	1    5650 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D35
@@ -1055,7 +1055,7 @@ F 1 "D28" H 6350 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 6350 2450 50  0001 C CNN
 F 3 "" H 6350 2450 50  0001 C CNN
 	1    6350 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D36
@@ -1066,7 +1066,7 @@ F 1 "D29" H 7050 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 7050 2450 50  0001 C CNN
 F 3 "" H 7050 2450 50  0001 C CNN
 	1    7050 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D37
@@ -1077,7 +1077,7 @@ F 1 "D2A" H 7750 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 7750 2450 50  0001 C CNN
 F 3 "" H 7750 2450 50  0001 C CNN
 	1    7750 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D38
@@ -1088,7 +1088,7 @@ F 1 "D2B" H 8450 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 8450 2450 50  0001 C CNN
 F 3 "" H 8450 2450 50  0001 C CNN
 	1    8450 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D39
@@ -1099,7 +1099,7 @@ F 1 "D2C" H 9150 2350 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 9150 2450 50  0001 C CNN
 F 3 "" H 9150 2450 50  0001 C CNN
 	1    9150 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L KEYSW K40
@@ -1110,7 +1110,7 @@ F 1 "K30" H 1050 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_175" H 1050 2900 60  0001 C CNN
 F 3 "" H 1050 2900 60  0000 C CNN
 	1    1050 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K41
@@ -1121,7 +1121,7 @@ F 1 "K31" H 1750 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 1750 2900 60  0001 C CNN
 F 3 "" H 1750 2900 60  0000 C CNN
 	1    1750 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K42
@@ -1132,7 +1132,7 @@ F 1 "K32" H 2450 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 2450 2900 60  0001 C CNN
 F 3 "" H 2450 2900 60  0000 C CNN
 	1    2450 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K43
@@ -1143,7 +1143,7 @@ F 1 "K33" H 3150 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 3150 2900 60  0001 C CNN
 F 3 "" H 3150 2900 60  0000 C CNN
 	1    3150 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K44
@@ -1154,7 +1154,7 @@ F 1 "K34" H 3850 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 3850 2900 60  0001 C CNN
 F 3 "" H 3850 2900 60  0000 C CNN
 	1    3850 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K45
@@ -1165,7 +1165,7 @@ F 1 "K35" H 4550 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 4550 2900 60  0001 C CNN
 F 3 "" H 4550 2900 60  0000 C CNN
 	1    4550 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K46
@@ -1176,7 +1176,7 @@ F 1 "K36" H 5250 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 5250 2900 60  0001 C CNN
 F 3 "" H 5250 2900 60  0000 C CNN
 	1    5250 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K47
@@ -1187,7 +1187,7 @@ F 1 "K37" H 5950 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 5950 2900 60  0001 C CNN
 F 3 "" H 5950 2900 60  0000 C CNN
 	1    5950 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K48
@@ -1198,7 +1198,7 @@ F 1 "K38" H 6650 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 6650 2900 60  0001 C CNN
 F 3 "" H 6650 2900 60  0000 C CNN
 	1    6650 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K49
@@ -1209,7 +1209,7 @@ F 1 "K39" H 7350 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 7350 2900 60  0001 C CNN
 F 3 "" H 7350 2900 60  0000 C CNN
 	1    7350 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K50
@@ -1220,7 +1220,7 @@ F 1 "K3A" H 8050 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 8050 2900 60  0001 C CNN
 F 3 "" H 8050 2900 60  0000 C CNN
 	1    8050 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K51
@@ -1231,7 +1231,7 @@ F 1 "K3B" H 8750 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_125" H 8750 2900 60  0001 C CNN
 F 3 "" H 8750 2900 60  0000 C CNN
 	1    8750 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K52
@@ -1242,7 +1242,7 @@ F 1 "K3C" H 9450 2800 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 9450 2900 60  0001 C CNN
 F 3 "" H 9450 2900 60  0000 C CNN
 	1    9450 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D40
@@ -1253,7 +1253,7 @@ F 1 "D30" H 750 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 750 3050 50  0001 C CNN
 F 3 "" H 750 3050 50  0001 C CNN
 	1    750  3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D41
@@ -1264,7 +1264,7 @@ F 1 "D31" H 1450 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 1450 3050 50  0001 C CNN
 F 3 "" H 1450 3050 50  0001 C CNN
 	1    1450 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D42
@@ -1275,7 +1275,7 @@ F 1 "D32" H 2150 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 2150 3050 50  0001 C CNN
 F 3 "" H 2150 3050 50  0001 C CNN
 	1    2150 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D43
@@ -1286,7 +1286,7 @@ F 1 "D33" H 2850 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 2850 3050 50  0001 C CNN
 F 3 "" H 2850 3050 50  0001 C CNN
 	1    2850 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D44
@@ -1297,7 +1297,7 @@ F 1 "D34" H 3550 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 3550 3050 50  0001 C CNN
 F 3 "" H 3550 3050 50  0001 C CNN
 	1    3550 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D45
@@ -1308,7 +1308,7 @@ F 1 "D35" H 4250 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 4250 3050 50  0001 C CNN
 F 3 "" H 4250 3050 50  0001 C CNN
 	1    4250 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D46
@@ -1319,7 +1319,7 @@ F 1 "D36" H 4950 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 4950 3050 50  0001 C CNN
 F 3 "" H 4950 3050 50  0001 C CNN
 	1    4950 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D47
@@ -1330,7 +1330,7 @@ F 1 "D37" H 5650 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 5650 3050 50  0001 C CNN
 F 3 "" H 5650 3050 50  0001 C CNN
 	1    5650 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D48
@@ -1341,7 +1341,7 @@ F 1 "D38" H 6350 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 6350 3050 50  0001 C CNN
 F 3 "" H 6350 3050 50  0001 C CNN
 	1    6350 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D49
@@ -1352,7 +1352,7 @@ F 1 "D39" H 7050 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 7050 3050 50  0001 C CNN
 F 3 "" H 7050 3050 50  0001 C CNN
 	1    7050 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D50
@@ -1363,7 +1363,7 @@ F 1 "D3A" H 7750 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 7750 3050 50  0001 C CNN
 F 3 "" H 7750 3050 50  0001 C CNN
 	1    7750 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D51
@@ -1374,7 +1374,7 @@ F 1 "D3B" H 8450 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 8450 3050 50  0001 C CNN
 F 3 "" H 8450 3050 50  0001 C CNN
 	1    8450 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D52
@@ -1385,7 +1385,7 @@ F 1 "D3C" H 9150 2950 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 9150 3050 50  0001 C CNN
 F 3 "" H 9150 3050 50  0001 C CNN
 	1    9150 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L KEYSW K53
@@ -1396,7 +1396,7 @@ F 1 "K41" H 1750 3400 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 1750 3500 60  0001 C CNN
 F 3 "" H 1750 3500 60  0000 C CNN
 	1    1750 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K56
@@ -1407,7 +1407,7 @@ F 1 "K48" H 6650 3750 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_150" H 6650 3850 60  0001 C CNN
 F 3 "" H 6650 3850 60  0000 C CNN
 	1    6650 3850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K54
@@ -1418,7 +1418,7 @@ F 1 "K42" H 2450 3500 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_150" H 2450 3600 60  0001 C CNN
 F 3 "" H 2450 3600 60  0000 C CNN
 	1    2450 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K55
@@ -1429,7 +1429,7 @@ F 1 "K45" H 4550 3750 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_625" H 4550 3850 60  0001 C CNN
 F 3 "" H 4550 3850 60  0000 C CNN
 	1    4550 3850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K57
@@ -1440,7 +1440,7 @@ F 1 "K49" H 7350 3750 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 7350 3850 60  0001 C CNN
 F 3 "" H 7350 3850 60  0000 C CNN
 	1    7350 3850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K58
@@ -1451,7 +1451,7 @@ F 1 "K4A" H 8050 3400 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 8050 3500 60  0001 C CNN
 F 3 "" H 8050 3500 60  0000 C CNN
 	1    8050 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K59
@@ -1462,7 +1462,7 @@ F 1 "K4B" H 8750 3400 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_100" H 8750 3500 60  0001 C CNN
 F 3 "" H 8750 3500 60  0000 C CNN
 	1    8750 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K60
@@ -1473,7 +1473,7 @@ F 1 "K4C" H 9450 3400 60  0000 C CNN
 F 2 "Footprint:Mx_Alps_150" H 9450 3500 60  0001 C CNN
 F 3 "" H 9450 3500 60  0000 C CNN
 	1    9450 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D53
@@ -1484,7 +1484,7 @@ F 1 "D41" H 1450 3900 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 1450 4000 50  0001 C CNN
 F 3 "" H 1450 4000 50  0001 C CNN
 	1    1450 4000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D54
@@ -1495,7 +1495,7 @@ F 1 "D42" H 2150 3900 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 2150 4000 50  0001 C CNN
 F 3 "" H 2150 4000 50  0001 C CNN
 	1    2150 4000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D55
@@ -1506,7 +1506,7 @@ F 1 "D45" H 4250 3900 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 4250 4000 50  0001 C CNN
 F 3 "" H 4250 4000 50  0001 C CNN
 	1    4250 4000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D56
@@ -1517,7 +1517,7 @@ F 1 "D48" H 6350 3900 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 6350 4000 50  0001 C CNN
 F 3 "" H 6350 4000 50  0001 C CNN
 	1    6350 4000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D57
@@ -1528,7 +1528,7 @@ F 1 "D49" H 7050 3900 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 7050 4000 50  0001 C CNN
 F 3 "" H 7050 4000 50  0001 C CNN
 	1    7050 4000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D58
@@ -1539,7 +1539,7 @@ F 1 "D4A" H 7750 3900 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 7750 4000 50  0001 C CNN
 F 3 "" H 7750 4000 50  0001 C CNN
 	1    7750 4000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D59
@@ -1550,7 +1550,7 @@ F 1 "D4B" H 8450 3900 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 8450 4000 50  0001 C CNN
 F 3 "" H 8450 4000 50  0001 C CNN
 	1    8450 4000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L D D60
@@ -1561,7 +1561,7 @@ F 1 "D4C" H 9150 3900 50  0000 C CNN
 F 2 "Footprint:D_SOD123" H 9150 4000 50  0001 C CNN
 F 3 "" H 9150 4000 50  0001 C CNN
 	1    9150 4000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text Label 1350 850  0    60   ~ 0
 Col0
@@ -1644,7 +1644,7 @@ F 1 "ATMEGA32U4" H 4050 7250 60  0000 C CNN
 F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 4050 6000 60  0001 C CNN
 F 3 "" H 4050 6000 60  0000 C CNN
 	1    4050 6000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L USB_mini_micro_B J1
@@ -1655,7 +1655,7 @@ F 1 "USB_mini_micro_B" H 1450 5450 60  0001 C CNN
 F 2 "Footprint:USB_miniB_hirose_5S8" H 1550 5200 60  0001 C CNN
 F 3 "" H 1550 5200 60  0000 C CNN
 	1    1600 5200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR08
@@ -1666,7 +1666,7 @@ F 1 "VCC" H 2300 4950 50  0000 C CNN
 F 2 "" H 2300 4800 50  0001 C CNN
 F 3 "" H 2300 4800 50  0001 C CNN
 	1    2300 4800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R3
@@ -1677,7 +1677,7 @@ F 1 "22" V 2450 5150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2380 5150 50  0001 C CNN
 F 3 "" H 2450 5150 50  0001 C CNN
 	1    2450 5150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R R4
@@ -1688,7 +1688,7 @@ F 1 "22" V 2100 5250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2030 5250 50  0001 C CNN
 F 3 "" H 2100 5250 50  0001 C CNN
 	1    2100 5250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L C_Small C8
@@ -1699,7 +1699,7 @@ F 1 "1u" H 2510 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2500 5450 50  0001 C CNN
 F 3 "" H 2500 5450 50  0001 C CNN
 	1    2500 5450
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	1600 6850 1600 7000
@@ -1988,7 +1988,7 @@ F 1 "Ctrl" H 1050 2050 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_175_STEPPED" H 1050 2150 60  0001 C CNN
 F 3 "" H 1050 2150 60  0000 C CNN
 	1    1050 2150
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	750  2150 750  2300
@@ -2006,7 +2006,7 @@ F 1 "ESC_LED" H 9550 5250 50  0000 C CNN
 F 2 "LEDs:LED_D3.0mm" H 9550 5350 50  0001 C CNN
 F 3 "" H 9550 5350 50  0001 C CNN
 	1    9550 5350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R5
@@ -2017,7 +2017,7 @@ F 1 "R" V 9850 5350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9780 5350 50  0001 C CNN
 F 3 "" H 9850 5350 50  0001 C CNN
 	1    9850 5350
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR09
@@ -2028,7 +2028,7 @@ F 1 "GND" H 8900 5250 50  0000 C CNN
 F 2 "" H 8900 5400 50  0001 C CNN
 F 3 "" H 8900 5400 50  0001 C CNN
 	1    8900 5400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	9400 5350 8900 5350
@@ -2043,7 +2043,7 @@ F 1 "CAPS_LED" H 9550 4900 50  0000 C CNN
 F 2 "LEDs:LED_D3.0mm" H 9550 5000 50  0001 C CNN
 F 3 "" H 9550 5000 50  0001 C CNN
 	1    9550 5000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R6
@@ -2054,7 +2054,7 @@ F 1 "R" V 9850 5000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9780 5000 50  0001 C CNN
 F 3 "" H 9850 5000 50  0001 C CNN
 	1    9850 5000
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	9400 5000 8900 5000
@@ -2076,7 +2076,7 @@ F 1 "GND" H 5150 6900 50  0000 C CNN
 F 2 "" H 5150 7050 50  0001 C CNN
 F 3 "" H 5150 7050 50  0001 C CNN
 	1    5150 7050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR011
@@ -2087,7 +2087,7 @@ F 1 "GND" H 3000 6200 50  0000 C CNN
 F 2 "" H 3000 6350 50  0001 C CNN
 F 3 "" H 3000 6350 50  0001 C CNN
 	1    3000 6350
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L LED LD2
@@ -2098,7 +2098,7 @@ F 1 "CAPS_LED" H 9550 4600 50  0000 C CNN
 F 2 "LEDs:LED_D3.0mm" H 9550 4700 50  0001 C CNN
 F 3 "" H 9550 4700 50  0001 C CNN
 	1    9550 4700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	9400 4700 9400 5000
@@ -2116,7 +2116,7 @@ F 1 "SPACE" H 4550 3500 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_600" H 4550 3600 60  0001 C CNN
 F 3 "" H 4550 3600 60  0000 C CNN
 	1    4550 3600
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K63
@@ -2127,7 +2127,7 @@ F 1 "SPACE" H 4550 3200 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_700" H 4550 3300 60  0001 C CNN
 F 3 "" H 4550 3300 60  0000 C CNN
 	1    4550 3300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K66
@@ -2138,7 +2138,7 @@ F 1 "R_ALT" H 6650 3200 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_150" H 6650 3300 60  0001 C CNN
 F 3 "" H 6650 3300 60  0000 C CNN
 	1    6650 3300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K65
@@ -2149,7 +2149,7 @@ F 1 "R_ALT" H 6650 3500 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_125" H 6650 3600 60  0001 C CNN
 F 3 "" H 6650 3600 60  0000 C CNN
 	1    6650 3600
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Connection ~ 6950 3300
 $Comp
@@ -2161,7 +2161,7 @@ F 1 "R_GUI" H 7350 3500 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_100" H 7350 3600 60  0001 C CNN
 F 3 "" H 7350 3600 60  0000 C CNN
 	1    7350 3600
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K67
@@ -2172,7 +2172,7 @@ F 1 "R_GUI" H 7350 3200 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_100" H 7350 3300 60  0001 C CNN
 F 3 "" H 7350 3300 60  0000 C CNN
 	1    7350 3300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Connection ~ 7650 3300
 $Comp
@@ -2184,7 +2184,7 @@ F 1 "L_ALT" H 2450 3200 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_125" H 2450 3300 60  0001 C CNN
 F 3 "" H 2450 3300 60  0000 C CNN
 	1    2450 3300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1450 4150 9900 4150
@@ -2232,7 +2232,7 @@ F 1 "K30" H 1050 2650 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_225" H 1050 2750 60  0001 C CNN
 F 3 "" H 1050 2750 60  0000 C CNN
 	1    1050 2750
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	750  2750 750  2900
@@ -2246,7 +2246,7 @@ F 1 "K3C" H 9450 2650 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_100" H 9450 2750 60  0001 C CNN
 F 3 "" H 9450 2750 60  0000 C CNN
 	1    9450 2750
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	9150 2750 9150 2900
@@ -2261,7 +2261,7 @@ F 1 "K3B" H 8750 2650 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_175" H 8750 2750 60  0001 C CNN
 F 3 "" H 8750 2750 60  0000 C CNN
 	1    8750 2750
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	8450 2750 8450 2900
@@ -2276,7 +2276,7 @@ F 1 "SPACE" H 4550 3350 60  0001 C CNN
 F 2 "Footprint:Mx_Alps_100" H 4550 3450 60  0001 C CNN
 F 3 "" H 4550 3450 60  0000 C CNN
 	1    4550 3450
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Connection ~ 4250 3450
 Connection ~ 4850 3450

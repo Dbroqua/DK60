@@ -1,22 +1,32 @@
-# MX_HHKB
-Mechanical keyboard based on HHKB layout
+# DK60 / DK60TP
+Mechanical keyboard based on HHKB layout withor without Trackpoint.
 
 ## About
 
-Just another fun(?) keyboard with HHKB layout. Designed to fit in some 60% Poker cases.
+Just another fun(?) keyboard with HHKB layout. Designed to fit in some 60% Poker cases (except the TP version).
 
 Can accept normal caps lock or stepped. No Backlight or RGB leds, just 2 leds on Caps lock and Esc.
 
 All caps are in standard size to increase choice of keysets!
 
-![Layout](./layout.png "Layout")
+## DK60
+![Layout](./Previews/DK60.png "Layout")
 
-![PCB](./Kicad/MX_HHKB.png "PCB")
+![PCB](./Previews/DK60-PCB.png "PCB")
 
 Bottom row:
 * 1U - 1.5U - 6.25U - 1.5U - 1U
 * 1U - 1.5U - 6U - 1.5U - 1U
 * 1U - 1.25U - 7U - 1.25U - 1U
+
+## DK60TP
+:warning: Still in development
+
+Extended version of DK60 with integrated IBM Trackpoint.
+![Layout](./Previews/DK60TP.png "Layout")
+
+Bottom row:
+* 1U - 1.5U - 6U - 1.5U - 1U
 
 ## Firmware
 All firmware we can drive an ATMEGA32U4 (QMK, TMK and other forks).

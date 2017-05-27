@@ -58,5 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=Libraries/keyboard_parts
-LibName31=Libraries/mkl27z256vfm4
+LibName30=../../Libraries/keyboard_parts
+LibName31=../../Libraries/mkl27z256vfm4

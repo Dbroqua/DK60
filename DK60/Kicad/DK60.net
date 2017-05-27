@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/dbroqua/Webstorm/dbroqua/MX_HHKB/Kicad/MX_HHKB.sch)
+    (source ./DK60.sch)
     (date "Tue 23 May 2017 08:15:47 PM CEST")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company)
         (rev)
         (date)
-        (source MX_HHKB.sch)
+        (source DK60.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -1070,7 +1070,7 @@
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical keyboard_parts)
-      (uri /home/dbroqua/Webstorm/dbroqua/MX_HHKB/Kicad/Libraries/keyboard_parts.lib)))
+      (uri ../../Libraries/keyboard_parts.lib)))
   (nets
     (net (code 1) (name "Net-(R4-Pad2)")
       (node (ref U0) (pin 4))

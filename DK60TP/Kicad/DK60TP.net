@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dbroqua/Webstorm/dbroqua/DK60/DK60TP/Kicad/DK60TP.sch)
-    (date "Sat 27 May 2017 07:20:56 PM CEST")
+    (date "Sun 28 May 2017 10:33:42 AM CEST")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -839,7 +839,7 @@
       (tstamp 59062EBC))
     (comp (ref LD1)
       (value CAPS_LED)
-      (footprint LEDs:LED_D3.0mm)
+      (footprint LEDs:LED_PLCC_2835)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 5907938D))
@@ -1065,12 +1065,12 @@
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
+    (library (logical keyboard_parts)
+      (uri /home/dbroqua/Webstorm/dbroqua/DK60/DK60TP/Kicad/../../Libraries/keyboard_parts.lib))
     (library (logical DK60TP-cache)
       (uri /home/dbroqua/Webstorm/dbroqua/DK60/DK60TP/Kicad/DK60TP-cache.lib))
-    (library (logical keyboard_parts)
-      (uri /home/dbroqua/Webstorm/dbroqua/DK60/DK60TP/Kicad/../../Libraries/keyboard_parts.lib)))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name "Net-(J1-Pad4)")
       (node (ref J1) (pin 4)))

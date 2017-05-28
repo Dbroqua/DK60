@@ -1591,19 +1591,19 @@ Text Label 9000 600  0    60   ~ 0
 Col11
 Text Label 9700 600  0    60   ~ 0
 Col12
-Text Label 2250 6200 0    60   ~ 0
+Text Label 4650 6100 0    60   ~ 0
 Col1
-Text Label 2250 6100 0    60   ~ 0
+Text Label 4650 5900 0    60   ~ 0
 Col2
-Text Label 2250 6300 0    60   ~ 0
+Text Label 4650 5700 0    60   ~ 0
 Col3
 Text Label 2250 7300 0    60   ~ 0
 Col4
-Text Label 4650 7100 0    60   ~ 0
+Text Label 2250 6400 0    60   ~ 0
 Col5
 Text Label 4650 7000 0    60   ~ 0
 Col6
-Text Label 2250 6400 0    60   ~ 0
+Text Label 2250 6300 0    60   ~ 0
 Col7
 Text Label 4650 7200 0    60   ~ 0
 Col8
@@ -1625,13 +1625,13 @@ Text Label 9850 2950 0    60   ~ 0
 Row3
 Text Label 9850 3550 0    60   ~ 0
 Row4
-Text Label 4650 5900 0    60   ~ 0
+Text Label 4650 6000 0    60   ~ 0
 Row0
 Text Label 4650 6700 0    60   ~ 0
 Row1
 Text Label 4650 6800 0    60   ~ 0
 Row2
-Text Label 4650 6100 0    60   ~ 0
+Text Label 2250 6200 0    60   ~ 0
 Row3
 Text Label 4650 6500 0    60   ~ 0
 Row4

@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:keyboard_parts
 LIBS:mkl27z256vfm4
 LIBS:Trackpad
+LIBS:MouseButtons-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -174,10 +175,10 @@ F 3 "" H 4950 1300 50  0000 C CNN
 $EndComp
 Text GLabel 4750 1450 0    60   Input ~ 0
 Row4
-Text GLabel 4750 1350 0    60   Input ~ 0
+Text GLabel 4750 1150 0    60   Input ~ 0
 Col5
 Text GLabel 4750 1250 0    60   Input ~ 0
 Col4
-Text GLabel 4750 1150 0    60   Input ~ 0
+Text GLabel 4750 1350 0    60   Input ~ 0
 Col3
 $EndSCHEMATC

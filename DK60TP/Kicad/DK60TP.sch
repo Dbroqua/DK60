@@ -483,17 +483,6 @@ Trackpoint
 Text Notes 10550 7650 0    60   ~ 0
 B
 $Comp
-L IBM_Trackpoint TP1
-U 1 1 59276716
-P 5650 5700
-F 0 "TP1" H 5250 5650 60  0001 C CNN
-F 1 "IBM_Trackpoint" H 5500 5950 60  0001 C CNN
-F 2 "Footprint:IBM_Trackpad" H 5600 5700 60  0001 C CNN
-F 3 "" H 5600 5700 60  0000 C CNN
-	1    5650 5700
-	1    0    0    -1  
-$EndComp
-$Comp
 L KEYSW K1
 U 1 1 593001BE
 P 950 750
@@ -2129,17 +2118,6 @@ $EndComp
 Text Label 2150 6300 0    60   ~ 0
 ColD
 $Comp
-L CONN_01X04 P1
-U 1 1 593C16CE
-P 3800 4750
-F 0 "P1" H 3800 5000 50  0000 C CNN
-F 1 "CONN_01X04" V 3900 4750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 3800 4750 50  0001 C CNN
-F 3 "" H 3800 4750 50  0000 C CNN
-	1    3800 4750
-	0    1    1    0   
-$EndComp
-$Comp
 L KEYSW K20
 U 1 1 5937F3D0
 P 2350 4350
@@ -2172,6 +2150,45 @@ F 3 "" H 4750 5600 50  0001 C CNN
 	1    4750 5600
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_02X05 P2
+U 1 1 59315D86
+P 8550 5850
+F 0 "P2" H 8550 6150 50  0000 C CNN
+F 1 "CONN_02X05" H 8550 5550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x05" H 8550 4650 50  0001 C CNN
+F 3 "" H 8550 4650 50  0000 C CNN
+	1    8550 5850
+	1    0    0    -1  
+$EndComp
+Text Label 8100 6050 0    60   ~ 0
+Row4
+Text Label 8100 5750 0    60   ~ 0
+Col3
+Text Label 8100 5850 0    60   ~ 0
+Col4
+Text Label 8100 5950 0    60   ~ 0
+Col5
+Text GLabel 9050 5650 2    60   Input ~ 0
+TPClock
+Text GLabel 9050 5750 2    60   Input ~ 0
+TPVcc
+Text GLabel 9050 5850 2    60   Input ~ 0
+GND
+Text GLabel 9050 5950 2    60   Input ~ 0
+TPDATA
+Text GLabel 9050 6050 2    60   Input ~ 0
+TPRESET
+Text GLabel 5800 5550 0    60   Input ~ 0
+TPClock
+Text GLabel 5800 5650 0    60   Input ~ 0
+TPVcc
+Text GLabel 5800 5750 0    60   Input ~ 0
+GND
+Text GLabel 5800 5850 0    60   Input ~ 0
+TPDATA
+Text GLabel 5800 5950 0    60   Input ~ 0
+TPRESET
 Wire Wire Line
 	1000 7400 1000 7550
 Wire Wire Line
@@ -2710,14 +2727,6 @@ Connection ~ 9050 3450
 Connection ~ 9650 3450
 Connection ~ 650  2550
 Wire Wire Line
-	3650 4400 3650 4550
-Wire Wire Line
-	3750 4200 3750 4550
-Wire Wire Line
-	3850 4400 3850 4550
-Wire Wire Line
-	4750 450  4750 4200
-Wire Wire Line
 	9750 1600 9750 1650
 Connection ~ 10350 1600
 Connection ~ 9750 1650
@@ -2726,22 +2735,27 @@ Wire Wire Line
 Wire Wire Line
 	4550 5600 4750 5600
 Wire Wire Line
-	3950 4550 3950 4150
+	4050 450  4050 3150
 Wire Wire Line
-	3950 4150 3350 4150
+	8100 5750 8300 5750
 Wire Wire Line
-	3350 4150 3350 450 
+	8100 5850 8300 5850
 Wire Wire Line
-	3650 4400 3500 4400
+	8100 5950 8300 5950
 Wire Wire Line
-	3500 4400 3500 5250
-Connection ~ 3500 5250
+	8800 5650 9050 5650
 Wire Wire Line
-	4750 4200 3750 4200
+	8800 5750 9050 5750
 Wire Wire Line
-	4050 1650 4050 450 
+	8800 5850 9050 5850
 Wire Wire Line
-	3850 4400 4050 4400
+	8800 5950 9050 5950
 Wire Wire Line
-	4050 4400 4050 750 
+	9050 6050 8800 6050
+Wire Wire Line
+	3350 450  3350 3150
+Wire Wire Line
+	4750 3150 4750 450 
+Wire Wire Line
+	8100 6050 8300 6050
 $EndSCHEMATC

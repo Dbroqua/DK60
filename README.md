@@ -24,21 +24,36 @@ Bottom row:
 ## DK60TP
 :warning: Still in development :warning:
 
-Need a custom case...
+DK60TP is just a big update of DK60 with support for IBM Trackpoint.
 
-Extended version of DK60 with integrated IBM Trackpoint.
+My goal is to recreate a Tex Yoga like but with many custom layouts.
+
+Electronic is divided in 3 parts:
+* Keyboard PCB (compatible with some 60% Poker cases)
+* Mouse buttons PCB
+* IBM Trackpoint
+
 ![Layout](./Previews/DK60TP.png "Layout")
 
 ![PCB](./Previews/DK60TP-PCB.png "PCB")
 
-Bottom row:
-* 1U - 1.5U - 6U - 1.5U - 1U
+![PCB](./Previews/DK60TP-PCB-FRONT.png "PCB")
 
 ## Firmware
-All firmware we can drive an ATMEGA32U4 (QMK, TMK and other forks).
+DK60 is officially supported by QMK: https://github.com/qmk/qmk_firmware/tree/master/keyboards/dk60
+DK60TP still in development and does not have actually associate firmware.
 
 ## Third party
 Libraries and Footprint are provided by Hasu and /u/techieee.
+
+## Used software
+I've only used Open Source software for Electronic and Cases.
+
+List of used softwares:
+* OS: Debian
+* Kicad
+* QCad
+* Freecad
 
 ## External links
 

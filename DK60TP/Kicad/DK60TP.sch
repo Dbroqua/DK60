@@ -30,12 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:keyboard_parts
 LIBS:mkl27z256vfm4
+LIBS:TS65
 LIBS:DK60TP-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "DK60TP"
 Date "2017-06-01"
 Rev "A"
@@ -253,7 +254,7 @@ Text Label 4550 5900 0    60   ~ 0
 Col3
 Text Label 4550 6900 0    60   ~ 0
 Col4
-Text Label 2150 6600 0    60   ~ 0
+Text Label 2150 6300 0    60   ~ 0
 Col5
 Text Label 4550 7200 0    60   ~ 0
 Col6
@@ -2089,7 +2090,7 @@ F 3 "" H 5100 5700 50  0001 C CNN
 	1    5100 5700
 	1    0    0    -1  
 $EndComp
-Text Label 2150 6300 0    60   ~ 0
+Text Label 2200 6200 0    60   ~ 0
 ColD
 $Comp
 L KEYSW K20
@@ -2200,15 +2201,11 @@ Wire Wire Line
 Wire Wire Line
 	1350 6700 1400 6700
 Wire Wire Line
-	2150 6200 2400 6200
-Wire Wire Line
 	2150 6300 2400 6300
 Wire Wire Line
 	2150 6400 2400 6400
 Wire Wire Line
 	2150 6500 2400 6500
-Wire Wire Line
-	2400 6600 2150 6600
 Wire Wire Line
 	2150 7200 2400 7200
 Wire Wire Line
@@ -2751,4 +2748,14 @@ Wire Wire Line
 	6350 5900 6350 5850
 Wire Wire Line
 	6350 5850 6700 5850
+$Sheet
+S 8550 5800 900  300 
+U 5932D4E4
+F0 "BACKLIT" 60
+F1 "BACKLIT.sch" 60
+$EndSheet
+Text GLabel 2400 6600 0    60   Input ~ 0
+BACKLIT
+Wire Wire Line
+	2400 6200 2200 6200
 $EndSCHEMATC

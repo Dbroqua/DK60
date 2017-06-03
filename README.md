@@ -1,5 +1,5 @@
 # DK60 / DK60TP
-Mechanical keyboard based on HHKB layout withor without Trackpoint.
+Mechanical keyboard based on HHKB layout with or without Trackpoint.
 
 ## About
 
@@ -41,12 +41,10 @@ Electronic is divided in 3 parts:
 
 ## Firmware
 DK60 is officially supported by QMK: https://github.com/qmk/qmk_firmware/tree/master/keyboards/dk60
+
 DK60TP still in development and does not have actually associate firmware.
 
-## Third party
-Libraries and Footprint are provided by Hasu and /u/techieee.
-
-## Used software
+## Used softwares
 I've only used Open Source software for Electronic and Cases.
 
 List of used softwares:
@@ -55,10 +53,14 @@ List of used softwares:
 * QCad
 * Freecad
 
+## Third party
+Libraries and Footprint are provided by Hasu, /u/techieee and mohitg11.
+
 ## External links
 
 * PCB guide: https://github.com/ruiqimao/keyboard-pcb-guide
 * Hasu's lib: https://github.com/tmk/kicad_lib_tmk
 * Hasu's footprint https://github.com/tmk/keyboard_parts.pretty
 * /u/techieee's footprint: https://github.com/egladman/keebs.pretty
+* mohitg11's footprint and Libraries: https://github.com/mohitg11/TS65AVR
 * Plate generator: http://builder.swillkb.com/

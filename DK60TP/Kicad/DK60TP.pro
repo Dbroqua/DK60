@@ -1,4 +1,4 @@
-update=Sun 28 May 2017 10:33:27 AM CEST
+update=Sat 03 Jun 2017 04:57:08 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=../../Libraries/keyboard_parts
 LibName31=../../Libraries/mkl27z256vfm4
+LibName32=/home/dbroqua/Webstorm/dbroqua/DK60/Libraries/TS65

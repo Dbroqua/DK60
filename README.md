@@ -1,15 +1,15 @@
 # DK60 / DK60TP
 Mechanical keyboard based on HHKB layout with or without Trackpoint.
 
-## About
-
+## DK60
 Just another fun(?) keyboard with HHKB layout.
 
-Can accept normal caps lock or stepped. No Backlight or RGB leds, just 2 leds on Caps lock and Esc.
+Can accept normal caps lock or stepped. No backlit or RGB leds, just 2 leds on Caps lock and Esc.
 
 All caps are in standard size to increase choice of keysets!
 
-## DK60
+Accept MX, ALPS and clones switches.
+
 Designed to fit in some 60% Poker cases.
 
 ![Layout](./Previews/DK60.png "Layout")
@@ -24,7 +24,7 @@ Bottom row:
 ## DK60TP
 :warning: Still in development :warning:
 
-DK60TP is just a big update of DK60 with support for IBM Trackpoint.
+DK60TP is just a big update of DK60 with support for IBM Trackpoint and backlit.
 
 My goal is to recreate a Tex Yoga like but with many custom layouts.
 
@@ -37,7 +37,9 @@ Electronic is divided in 3 parts:
 
 ![PCB](./Previews/DK60TP-PCB.png "PCB")
 
-![PCB](./Previews/DK60TP-PCB-FRONT.png "PCB")
+![PCB](./Previews/DK60TP-PCB-FRONT.png "PCB Front")
+
+![PCB](./Previews/MouseButtons.png "Mouse buttons PCB")
 
 ## Firmware
 DK60 is officially supported by QMK: https://github.com/qmk/qmk_firmware/tree/master/keyboards/dk60
@@ -45,13 +47,14 @@ DK60 is officially supported by QMK: https://github.com/qmk/qmk_firmware/tree/ma
 DK60TP still in development and does not have actually associate firmware.
 
 ## Used softwares
-I've only used Open Source software for Electronic and Cases.
+I've only used Open Source software to make all parts of this project.
 
 List of used softwares:
 * OS: Debian
 * Kicad
 * QCad
 * Freecad
+* ...
 
 ## Third party
 Libraries and Footprint are provided by Hasu, /u/techieee and mohitg11.

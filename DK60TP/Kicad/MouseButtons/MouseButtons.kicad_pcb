@@ -248,7 +248,7 @@
     )
   )
 
-  (module Footprint:Mx_Alps_125 (layer F.Cu) (tedit 591703D1) (tstamp 5931547A)
+  (module Footprint:Mx_Alps_125 (layer F.Cu) (tedit 5933CB26) (tstamp 5931547A)
     (at 114.3 71.4375)
     (descr MXALPS)
     (tags MXALPS)
@@ -256,7 +256,7 @@
     (fp_text reference K2 (at 0 4) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
-    (fp_text value K43 (at 0 8) (layer B.SilkS)
+    (fp_text value K43 (at 0 8) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
@@ -407,7 +407,7 @@
     )
   )
 
-  (module Footprint:Mx_Alps_125 (layer F.Cu) (tedit 591703D1) (tstamp 59315495)
+  (module Footprint:Mx_Alps_125 (layer F.Cu) (tedit 5933CB2C) (tstamp 59315495)
     (at 157.1625 71.4375)
     (descr MXALPS)
     (tags MXALPS)
@@ -415,7 +415,7 @@
     (fp_text reference K5 (at 0 4) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
-    (fp_text value K45 (at 0 8) (layer B.SilkS)
+    (fp_text value K45 (at 0 8) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
@@ -639,16 +639,16 @@
   (segment (start 162.6475 66.6475) (end 166.6875 70.6875) (width 0.25) (layer B.Cu) (net 4) (tstamp 5931563A))
   (segment (start 159.6825 66.6475) (end 159.6825 67.9325) (width 0.25) (layer B.Cu) (net 4))
   (segment (start 157.30125 66.6475) (end 159.6825 66.6475) (width 0.25) (layer B.Cu) (net 4))
-  (segment (start 100.25 69.33) (end 109.7325 69.33) (width 0.25) (layer F.Cu) (net 5) (status C00000))
-  (segment (start 109.7325 69.33) (end 110.895 68.1675) (width 0.25) (layer F.Cu) (net 5) (tstamp 5931A12F) (status C00000))
+  (segment (start 100.25 69.33) (end 109.7325 69.33) (width 0.25) (layer F.Cu) (net 5))
+  (segment (start 109.7325 69.33) (end 110.895 68.1675) (width 0.25) (layer F.Cu) (net 5) (tstamp 5931A12F))
   (segment (start 110.2275 67.5) (end 110.895 68.1675) (width 0.25) (layer F.Cu) (net 5) (tstamp 593155BE))
   (segment (start 110.895 68.1675) (end 113.27625 68.1675) (width 0.25) (layer B.Cu) (net 5))
-  (segment (start 100.25 66.79) (end 108.96 66.79) (width 0.25) (layer F.Cu) (net 6) (status 400000))
-  (segment (start 128.40875 64.25) (end 132.32625 68.1675) (width 0.25) (layer F.Cu) (net 6) (tstamp 5931A138) (status 800000))
+  (segment (start 100.25 66.79) (end 108.96 66.79) (width 0.25) (layer F.Cu) (net 6))
+  (segment (start 128.40875 64.25) (end 132.32625 68.1675) (width 0.25) (layer F.Cu) (net 6) (tstamp 5931A138))
   (segment (start 111.5 64.25) (end 128.40875 64.25) (width 0.25) (layer F.Cu) (net 6) (tstamp 5931A136))
   (segment (start 108.96 66.79) (end 111.5 64.25) (width 0.25) (layer F.Cu) (net 6) (tstamp 5931A134))
-  (segment (start 151.37625 68.1675) (end 148.6675 68.1675) (width 0.25) (layer F.Cu) (net 7) (status 400000))
-  (segment (start 102.75 64.25) (end 100.25 64.25) (width 0.25) (layer F.Cu) (net 7) (tstamp 5931A142) (status 800000))
+  (segment (start 151.37625 68.1675) (end 148.6675 68.1675) (width 0.25) (layer F.Cu) (net 7))
+  (segment (start 102.75 64.25) (end 100.25 64.25) (width 0.25) (layer F.Cu) (net 7) (tstamp 5931A142))
   (segment (start 104 63) (end 102.75 64.25) (width 0.25) (layer F.Cu) (net 7) (tstamp 5931A140))
   (segment (start 143.5 63) (end 104 63) (width 0.25) (layer F.Cu) (net 7) (tstamp 5931A13E))
   (segment (start 148.6675 68.1675) (end 143.5 63) (width 0.25) (layer F.Cu) (net 7) (tstamp 5931A13C))

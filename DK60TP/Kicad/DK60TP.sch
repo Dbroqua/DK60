@@ -264,11 +264,11 @@ Text Label 4550 7400 0    60   ~ 0
 Col8
 Text Label 4550 7100 0    60   ~ 0
 Col9
-Text Label 2150 7200 0    60   ~ 0
+Text Label 2150 7500 0    60   ~ 0
 ColA
 Text Label 2150 7300 0    60   ~ 0
 ColB
-Text Label 2150 7500 0    60   ~ 0
+Text Label 2150 7200 0    60   ~ 0
 ColC
 Text Label 4550 6200 0    60   ~ 0
 Row0

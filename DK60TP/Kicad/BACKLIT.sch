@@ -58,18 +58,16 @@ F 3 "" H 1100 1600 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L VCC #PWR15
+L VCC #PWR014
 U 1 1 5932E02F
 P 1100 1000
-F 0 "#PWR15" H 1100 850 50  0001 C CNN
+F 0 "#PWR014" H 1100 850 50  0001 C CNN
 F 1 "VCC" H 1100 1150 50  0000 C CNN
 F 2 "" H 1100 1000 50  0000 C CNN
 F 3 "" H 1100 1000 50  0000 C CNN
 	1    1100 1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 1000 1100 1500
 $Comp
 L PAM2804 U1
 U 1 1 5932E049
@@ -81,29 +79,17 @@ F 3 "" H 2450 1350 60  0000 C CNN
 	1    2450 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 1200 2050 1200
-Connection ~ 1100 1200
 $Comp
-L GND #PWR16
+L GND #PWR015
 U 1 1 5932E0A0
 P 1100 2200
-F 0 "#PWR16" H 1100 1950 50  0001 C CNN
+F 0 "#PWR015" H 1100 1950 50  0001 C CNN
 F 1 "GND" H 1100 2050 50  0000 C CNN
 F 2 "" H 1100 2200 50  0000 C CNN
 F 3 "" H 1100 2200 50  0000 C CNN
 	1    1100 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 1700 1100 2200
-Wire Wire Line
-	1450 1300 2050 1300
-Wire Wire Line
-	1450 1300 1450 1950
-Wire Wire Line
-	1450 1950 1100 1950
-Connection ~ 1100 1950
 $Comp
 L INDUCTOR L1
 U 1 1 5932EA3C
@@ -115,8 +101,6 @@ F 3 "" H 3250 1200 60  0000 C CNN
 	1    3250 1200
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2850 1200 2950 1200
 $Comp
 L C_Small C11
 U 1 1 5932EB0B
@@ -128,59 +112,34 @@ F 3 "" H 3900 1400 50  0000 C CNN
 	1    3900 1400
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	3550 1200 4250 1200
-Wire Wire Line
-	3900 1200 3900 1300
 $Comp
-L GND #PWR17
+L GND #PWR016
 U 1 1 5932EBAF
 P 3900 2200
-F 0 "#PWR17" H 3900 1950 50  0001 C CNN
+F 0 "#PWR016" H 3900 1950 50  0001 C CNN
 F 1 "GND" H 3900 2050 50  0000 C CNN
 F 2 "" H 3900 2200 50  0000 C CNN
 F 3 "" H 3900 2200 50  0000 C CNN
 	1    3900 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 1500 3900 2200
-Text GLabel 4250 1200 2    60   Input ~ 0
+Text GLabel 2050 950  0    60   Input ~ 0
 LED_AN
-Connection ~ 3900 1200
 $Comp
 L R R5
 U 1 1 5932EC1F
 P 3450 1400
 F 0 "R5" V 3530 1400 50  0000 C CNN
-F 1 "R" V 3450 1400 50  0000 C CNN
+F 1 "0.5" V 3450 1400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3380 1400 50  0001 C CNN
 F 3 "" H 3450 1400 50  0000 C CNN
 	1    3450 1400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3600 1400 3600 1700
-Wire Wire Line
-	3600 1700 3900 1700
-Connection ~ 3900 1700
-Wire Wire Line
-	2850 1400 3300 1400
-Text GLabel 3000 1550 3    60   Input ~ 0
+Text GLabel 2050 1750 0    60   Input ~ 0
 LED_CATH
-Wire Wire Line
-	3000 1550 3000 1400
-Connection ~ 3000 1400
 Text Notes 1550 800  0    60   ~ 0
 Backlit controler
-Wire Notes Line
-	900  650  4700 650 
-Wire Notes Line
-	4700 650  4700 2450
-Wire Notes Line
-	4700 2450 900  2450
-Wire Notes Line
-	900  2450 900  650 
 Text GLabel 2050 1400 0    60   Input ~ 0
 BACKLIT
 $Comp
@@ -361,74 +320,8 @@ F 3 "" H 6200 2800 50  0000 C CNN
 	1    6200 2800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1500 2650 6200 2650
-Connection ~ 1700 2650
-Connection ~ 2000 2650
-Connection ~ 2300 2650
-Connection ~ 2600 2650
-Connection ~ 2900 2650
-Connection ~ 3200 2650
-Connection ~ 3500 2650
-Connection ~ 3800 2650
-Connection ~ 4100 2650
-Connection ~ 4400 2650
-Connection ~ 4700 2650
-Connection ~ 5000 2650
-Connection ~ 5300 2650
-Connection ~ 5600 2650
-Connection ~ 5900 2650
 Text GLabel 1500 3000 0    60   Input ~ 0
 LED_CATH
-Wire Wire Line
-	1500 3000 6200 3000
-Wire Wire Line
-	6200 3000 6200 2950
-Wire Wire Line
-	5900 2950 5900 3000
-Connection ~ 5900 3000
-Wire Wire Line
-	5600 2950 5600 3000
-Connection ~ 5600 3000
-Wire Wire Line
-	5300 2950 5300 3000
-Connection ~ 5300 3000
-Wire Wire Line
-	5000 2950 5000 3000
-Connection ~ 5000 3000
-Wire Wire Line
-	4700 2950 4700 3000
-Connection ~ 4700 3000
-Wire Wire Line
-	4400 2950 4400 3000
-Connection ~ 4400 3000
-Wire Wire Line
-	4100 2950 4100 3000
-Connection ~ 4100 3000
-Wire Wire Line
-	3800 2950 3800 3000
-Connection ~ 3800 3000
-Wire Wire Line
-	3500 2950 3500 3000
-Connection ~ 3500 3000
-Wire Wire Line
-	3200 2950 3200 3000
-Connection ~ 3200 3000
-Wire Wire Line
-	2900 2950 2900 3000
-Connection ~ 2900 3000
-Wire Wire Line
-	2600 2950 2600 3000
-Connection ~ 2600 3000
-Wire Wire Line
-	2300 2950 2300 3000
-Connection ~ 2300 3000
-Wire Wire Line
-	2000 2950 2000 3000
-Connection ~ 2000 3000
-Wire Wire Line
-	1700 2950 1700 3000
-Connection ~ 1700 3000
 $Comp
 L LED D25
 U 1 1 593315E8
@@ -596,72 +489,8 @@ F 3 "" H 5900 3450 50  0000 C CNN
 	1    5900 3450
 	0    -1   -1   0   
 $EndComp
-Connection ~ 1700 3300
-Connection ~ 2000 3300
-Connection ~ 2300 3300
-Connection ~ 2600 3300
-Connection ~ 2900 3300
-Connection ~ 3200 3300
-Connection ~ 3500 3300
-Connection ~ 3800 3300
-Connection ~ 4100 3300
-Connection ~ 4400 3300
-Connection ~ 4700 3300
-Connection ~ 5000 3300
-Connection ~ 5300 3300
-Connection ~ 5600 3300
-Connection ~ 5900 3300
 Text GLabel 1500 3650 0    60   Input ~ 0
 LED_CATH
-Wire Wire Line
-	5900 3600 5900 3650
-Connection ~ 5900 3650
-Wire Wire Line
-	5600 3600 5600 3650
-Connection ~ 5600 3650
-Wire Wire Line
-	5300 3600 5300 3650
-Connection ~ 5300 3650
-Wire Wire Line
-	5000 3600 5000 3650
-Connection ~ 5000 3650
-Wire Wire Line
-	4700 3600 4700 3650
-Connection ~ 4700 3650
-Wire Wire Line
-	4400 3600 4400 3650
-Connection ~ 4400 3650
-Wire Wire Line
-	4100 3600 4100 3650
-Connection ~ 4100 3650
-Wire Wire Line
-	3800 3600 3800 3650
-Connection ~ 3800 3650
-Wire Wire Line
-	3500 3600 3500 3650
-Connection ~ 3500 3650
-Wire Wire Line
-	3200 3600 3200 3650
-Connection ~ 3200 3650
-Wire Wire Line
-	2900 3600 2900 3650
-Connection ~ 2900 3650
-Wire Wire Line
-	2600 3600 2600 3650
-Connection ~ 2600 3650
-Wire Wire Line
-	2300 3600 2300 3650
-Connection ~ 2300 3650
-Wire Wire Line
-	2000 3600 2000 3650
-Connection ~ 2000 3650
-Wire Wire Line
-	1700 3600 1700 3650
-Connection ~ 1700 3650
-Wire Wire Line
-	1500 3300 6200 3300
-Wire Wire Line
-	1500 3650 6200 3650
 $Comp
 L LED D30
 U 1 1 59331C06
@@ -829,68 +658,8 @@ F 3 "" H 5900 4100 50  0000 C CNN
 	1    5900 4100
 	0    -1   -1   0   
 $EndComp
-Connection ~ 1700 3950
-Connection ~ 2000 3950
-Connection ~ 2300 3950
-Connection ~ 2600 3950
-Connection ~ 2900 3950
-Connection ~ 3200 3950
-Connection ~ 3500 3950
-Connection ~ 3800 3950
-Connection ~ 4100 3950
-Connection ~ 4400 3950
-Connection ~ 4700 3950
-Connection ~ 5000 3950
-Connection ~ 5300 3950
-Connection ~ 5600 3950
-Connection ~ 5900 3950
 Text GLabel 1500 4300 0    60   Input ~ 0
 LED_CATH
-Wire Wire Line
-	5900 4250 5900 4300
-Connection ~ 5900 4300
-Wire Wire Line
-	5600 4250 5600 4300
-Connection ~ 5600 4300
-Wire Wire Line
-	5300 4250 5300 4300
-Connection ~ 5300 4300
-Wire Wire Line
-	5000 4250 5000 4300
-Connection ~ 5000 4300
-Wire Wire Line
-	4700 4250 4700 4300
-Connection ~ 4700 4300
-Wire Wire Line
-	4400 4250 4400 4300
-Connection ~ 4400 4300
-Wire Wire Line
-	4100 4250 4100 4300
-Connection ~ 4100 4300
-Wire Wire Line
-	3800 4250 3800 4300
-Connection ~ 3800 4300
-Wire Wire Line
-	3500 4250 3500 4300
-Connection ~ 3500 4300
-Wire Wire Line
-	3200 4250 3200 4300
-Connection ~ 3200 4300
-Wire Wire Line
-	2900 4250 2900 4300
-Connection ~ 2900 4300
-Wire Wire Line
-	2600 4250 2600 4300
-Connection ~ 2600 4300
-Wire Wire Line
-	2300 4250 2300 4300
-Connection ~ 2300 4300
-Wire Wire Line
-	2000 4250 2000 4300
-Connection ~ 2000 4300
-Wire Wire Line
-	1700 4250 1700 4300
-Connection ~ 1700 4300
 $Comp
 L LED D69
 U 1 1 593326D5
@@ -1069,74 +838,8 @@ F 3 "" H 6200 4750 50  0000 C CNN
 	1    6200 4750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1500 4600 6500 4600
-Connection ~ 1700 4600
-Connection ~ 2000 4600
-Connection ~ 2300 4600
-Connection ~ 2600 4600
-Connection ~ 2900 4600
-Connection ~ 3200 4600
-Connection ~ 3500 4600
-Connection ~ 3800 4600
-Connection ~ 4100 4600
-Connection ~ 4400 4600
-Connection ~ 4700 4600
-Connection ~ 5000 4600
-Connection ~ 5300 4600
-Connection ~ 5600 4600
-Connection ~ 5900 4600
 Text GLabel 1500 4950 0    60   Input ~ 0
 LED_CATH
-Wire Wire Line
-	1500 4950 6500 4950
-Wire Wire Line
-	6200 4950 6200 4900
-Wire Wire Line
-	5900 4900 5900 4950
-Connection ~ 5900 4950
-Wire Wire Line
-	5600 4900 5600 4950
-Connection ~ 5600 4950
-Wire Wire Line
-	5300 4900 5300 4950
-Connection ~ 5300 4950
-Wire Wire Line
-	5000 4900 5000 4950
-Connection ~ 5000 4950
-Wire Wire Line
-	4700 4900 4700 4950
-Connection ~ 4700 4950
-Wire Wire Line
-	4400 4900 4400 4950
-Connection ~ 4400 4950
-Wire Wire Line
-	4100 4900 4100 4950
-Connection ~ 4100 4950
-Wire Wire Line
-	3800 4900 3800 4950
-Connection ~ 3800 4950
-Wire Wire Line
-	3500 4900 3500 4950
-Connection ~ 3500 4950
-Wire Wire Line
-	3200 4900 3200 4950
-Connection ~ 3200 4950
-Wire Wire Line
-	2900 4900 2900 4950
-Connection ~ 2900 4950
-Wire Wire Line
-	2600 4900 2600 4950
-Connection ~ 2600 4950
-Wire Wire Line
-	2300 4900 2300 4950
-Connection ~ 2300 4950
-Wire Wire Line
-	2000 4900 2000 4950
-Connection ~ 2000 4950
-Wire Wire Line
-	1700 4900 1700 4950
-Connection ~ 1700 4950
 $Comp
 L LED D70
 U 1 1 59332BD6
@@ -1315,6 +1018,352 @@ F 3 "" H 6200 5400 50  0000 C CNN
 	1    6200 5400
 	0    -1   -1   0   
 $EndComp
+Text GLabel 1500 5600 0    60   Input ~ 0
+LED_CATH
+$Comp
+L LED D144
+U 1 1 59332EAD
+P 6500 5400
+F 0 "D144" H 6500 5500 50  0000 C CNN
+F 1 "LED" H 6500 5300 50  0000 C CNN
+F 2 "Footprint:LED_TH_BIVAR" H 6500 5400 50  0001 C CNN
+F 3 "" H 6500 5400 50  0000 C CNN
+	1    6500 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D145
+U 1 1 59332FC5
+P 6500 4750
+F 0 "D145" H 6500 4850 50  0000 C CNN
+F 1 "LED" H 6500 4650 50  0000 C CNN
+F 2 "Footprint:LED_TH_BIVAR" H 6500 4750 50  0001 C CNN
+F 3 "" H 6500 4750 50  0000 C CNN
+	1    6500 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D146
+U 1 1 5934AE6B
+P 6200 4100
+F 0 "D146" H 6200 4200 50  0000 C CNN
+F 1 "LED" H 6200 4000 50  0000 C CNN
+F 2 "Footprint:LED_TH_BIVAR" H 6200 4100 50  0001 C CNN
+F 3 "" H 6200 4100 50  0000 C CNN
+	1    6200 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D147
+U 1 1 5934C32E
+P 6500 4100
+F 0 "D147" H 6500 4200 50  0000 C CNN
+F 1 "LED" H 6500 4000 50  0000 C CNN
+F 2 "Footprint:LED_TH_BIVAR" H 6500 4100 50  0001 C CNN
+F 3 "" H 6500 4100 50  0000 C CNN
+	1    6500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D148
+U 1 1 5934DE0E
+P 6200 3450
+F 0 "D148" H 6200 3550 50  0000 C CNN
+F 1 "LED" H 6200 3350 50  0000 C CNN
+F 2 "Footprint:LED_TH_BIVAR" H 6200 3450 50  0001 C CNN
+F 3 "" H 6200 3450 50  0000 C CNN
+	1    6200 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 1000 1100 1500
+Wire Wire Line
+	1100 1200 2050 1200
+Connection ~ 1100 1200
+Wire Wire Line
+	1100 1700 1100 2200
+Wire Wire Line
+	1450 1300 2050 1300
+Wire Wire Line
+	1450 1300 1450 1950
+Wire Wire Line
+	1450 1950 1100 1950
+Connection ~ 1100 1950
+Wire Wire Line
+	2850 1200 2950 1200
+Wire Wire Line
+	3900 950  3900 1300
+Wire Wire Line
+	3900 1500 3900 2200
+Connection ~ 3900 1200
+Wire Wire Line
+	3600 1400 3600 1700
+Wire Wire Line
+	3600 1700 3900 1700
+Connection ~ 3900 1700
+Wire Wire Line
+	2850 1400 3300 1400
+Wire Wire Line
+	3000 1400 3000 1750
+Connection ~ 3000 1400
+Wire Notes Line
+	900  2450 900  650 
+Wire Wire Line
+	1500 2650 6200 2650
+Connection ~ 1700 2650
+Connection ~ 2000 2650
+Connection ~ 2300 2650
+Connection ~ 2600 2650
+Connection ~ 2900 2650
+Connection ~ 3200 2650
+Connection ~ 3500 2650
+Connection ~ 3800 2650
+Connection ~ 4100 2650
+Connection ~ 4400 2650
+Connection ~ 4700 2650
+Connection ~ 5000 2650
+Connection ~ 5300 2650
+Connection ~ 5600 2650
+Connection ~ 5900 2650
+Wire Wire Line
+	1500 3000 6200 3000
+Wire Wire Line
+	6200 3000 6200 2950
+Wire Wire Line
+	5900 2950 5900 3000
+Connection ~ 5900 3000
+Wire Wire Line
+	5600 2950 5600 3000
+Connection ~ 5600 3000
+Wire Wire Line
+	5300 2950 5300 3000
+Connection ~ 5300 3000
+Wire Wire Line
+	5000 2950 5000 3000
+Connection ~ 5000 3000
+Wire Wire Line
+	4700 2950 4700 3000
+Connection ~ 4700 3000
+Wire Wire Line
+	4400 2950 4400 3000
+Connection ~ 4400 3000
+Wire Wire Line
+	4100 2950 4100 3000
+Connection ~ 4100 3000
+Wire Wire Line
+	3800 2950 3800 3000
+Connection ~ 3800 3000
+Wire Wire Line
+	3500 2950 3500 3000
+Connection ~ 3500 3000
+Wire Wire Line
+	3200 2950 3200 3000
+Connection ~ 3200 3000
+Wire Wire Line
+	2900 2950 2900 3000
+Connection ~ 2900 3000
+Wire Wire Line
+	2600 2950 2600 3000
+Connection ~ 2600 3000
+Wire Wire Line
+	2300 2950 2300 3000
+Connection ~ 2300 3000
+Wire Wire Line
+	2000 2950 2000 3000
+Connection ~ 2000 3000
+Wire Wire Line
+	1700 2950 1700 3000
+Connection ~ 1700 3000
+Connection ~ 1700 3300
+Connection ~ 2000 3300
+Connection ~ 2300 3300
+Connection ~ 2600 3300
+Connection ~ 2900 3300
+Connection ~ 3200 3300
+Connection ~ 3500 3300
+Connection ~ 3800 3300
+Connection ~ 4100 3300
+Connection ~ 4400 3300
+Connection ~ 4700 3300
+Connection ~ 5000 3300
+Connection ~ 5300 3300
+Connection ~ 5600 3300
+Connection ~ 5900 3300
+Wire Wire Line
+	5900 3600 5900 3650
+Connection ~ 5900 3650
+Wire Wire Line
+	5600 3600 5600 3650
+Connection ~ 5600 3650
+Wire Wire Line
+	5300 3600 5300 3650
+Connection ~ 5300 3650
+Wire Wire Line
+	5000 3600 5000 3650
+Connection ~ 5000 3650
+Wire Wire Line
+	4700 3600 4700 3650
+Connection ~ 4700 3650
+Wire Wire Line
+	4400 3600 4400 3650
+Connection ~ 4400 3650
+Wire Wire Line
+	4100 3600 4100 3650
+Connection ~ 4100 3650
+Wire Wire Line
+	3800 3600 3800 3650
+Connection ~ 3800 3650
+Wire Wire Line
+	3500 3600 3500 3650
+Connection ~ 3500 3650
+Wire Wire Line
+	3200 3600 3200 3650
+Connection ~ 3200 3650
+Wire Wire Line
+	2900 3600 2900 3650
+Connection ~ 2900 3650
+Wire Wire Line
+	2600 3600 2600 3650
+Connection ~ 2600 3650
+Wire Wire Line
+	2300 3600 2300 3650
+Connection ~ 2300 3650
+Wire Wire Line
+	2000 3600 2000 3650
+Connection ~ 2000 3650
+Wire Wire Line
+	1700 3600 1700 3650
+Connection ~ 1700 3650
+Wire Wire Line
+	1500 3300 6200 3300
+Wire Wire Line
+	1500 3650 6200 3650
+Connection ~ 1700 3950
+Connection ~ 2000 3950
+Connection ~ 2300 3950
+Connection ~ 2600 3950
+Connection ~ 2900 3950
+Connection ~ 3200 3950
+Connection ~ 3500 3950
+Connection ~ 3800 3950
+Connection ~ 4100 3950
+Connection ~ 4400 3950
+Connection ~ 4700 3950
+Connection ~ 5000 3950
+Connection ~ 5300 3950
+Connection ~ 5600 3950
+Connection ~ 5900 3950
+Wire Wire Line
+	5900 4250 5900 4300
+Connection ~ 5900 4300
+Wire Wire Line
+	5600 4250 5600 4300
+Connection ~ 5600 4300
+Wire Wire Line
+	5300 4250 5300 4300
+Connection ~ 5300 4300
+Wire Wire Line
+	5000 4250 5000 4300
+Connection ~ 5000 4300
+Wire Wire Line
+	4700 4250 4700 4300
+Connection ~ 4700 4300
+Wire Wire Line
+	4400 4250 4400 4300
+Connection ~ 4400 4300
+Wire Wire Line
+	4100 4250 4100 4300
+Connection ~ 4100 4300
+Wire Wire Line
+	3800 4250 3800 4300
+Connection ~ 3800 4300
+Wire Wire Line
+	3500 4250 3500 4300
+Connection ~ 3500 4300
+Wire Wire Line
+	3200 4250 3200 4300
+Connection ~ 3200 4300
+Wire Wire Line
+	2900 4250 2900 4300
+Connection ~ 2900 4300
+Wire Wire Line
+	2600 4250 2600 4300
+Connection ~ 2600 4300
+Wire Wire Line
+	2300 4250 2300 4300
+Connection ~ 2300 4300
+Wire Wire Line
+	2000 4250 2000 4300
+Connection ~ 2000 4300
+Wire Wire Line
+	1700 4250 1700 4300
+Connection ~ 1700 4300
+Wire Wire Line
+	1500 4600 6500 4600
+Connection ~ 1700 4600
+Connection ~ 2000 4600
+Connection ~ 2300 4600
+Connection ~ 2600 4600
+Connection ~ 2900 4600
+Connection ~ 3200 4600
+Connection ~ 3500 4600
+Connection ~ 3800 4600
+Connection ~ 4100 4600
+Connection ~ 4400 4600
+Connection ~ 4700 4600
+Connection ~ 5000 4600
+Connection ~ 5300 4600
+Connection ~ 5600 4600
+Connection ~ 5900 4600
+Wire Wire Line
+	1500 4950 6500 4950
+Wire Wire Line
+	6200 4950 6200 4900
+Wire Wire Line
+	5900 4900 5900 4950
+Connection ~ 5900 4950
+Wire Wire Line
+	5600 4900 5600 4950
+Connection ~ 5600 4950
+Wire Wire Line
+	5300 4900 5300 4950
+Connection ~ 5300 4950
+Wire Wire Line
+	5000 4900 5000 4950
+Connection ~ 5000 4950
+Wire Wire Line
+	4700 4900 4700 4950
+Connection ~ 4700 4950
+Wire Wire Line
+	4400 4900 4400 4950
+Connection ~ 4400 4950
+Wire Wire Line
+	4100 4900 4100 4950
+Connection ~ 4100 4950
+Wire Wire Line
+	3800 4900 3800 4950
+Connection ~ 3800 4950
+Wire Wire Line
+	3500 4900 3500 4950
+Connection ~ 3500 4950
+Wire Wire Line
+	3200 4900 3200 4950
+Connection ~ 3200 4950
+Wire Wire Line
+	2900 4900 2900 4950
+Connection ~ 2900 4950
+Wire Wire Line
+	2600 4900 2600 4950
+Connection ~ 2600 4950
+Wire Wire Line
+	2300 4900 2300 4950
+Connection ~ 2300 4950
+Wire Wire Line
+	2000 4900 2000 4950
+Connection ~ 2000 4950
+Wire Wire Line
+	1700 4900 1700 4950
+Connection ~ 1700 4950
 Connection ~ 1700 5250
 Connection ~ 2000 5250
 Connection ~ 2300 5250
@@ -1330,8 +1379,6 @@ Connection ~ 5000 5250
 Connection ~ 5300 5250
 Connection ~ 5600 5250
 Connection ~ 5900 5250
-Text GLabel 1500 5600 0    60   Input ~ 0
-LED_CATH
 Wire Wire Line
 	6200 5600 6200 5550
 Wire Wire Line
@@ -1379,73 +1426,18 @@ Connection ~ 2000 5600
 Wire Wire Line
 	1700 5550 1700 5600
 Connection ~ 1700 5600
-$Comp
-L LED D144
-U 1 1 59332EAD
-P 6500 5400
-F 0 "D144" H 6500 5500 50  0000 C CNN
-F 1 "LED" H 6500 5300 50  0000 C CNN
-F 2 "Footprint:LED_TH_BIVAR" H 6500 5400 50  0001 C CNN
-F 3 "" H 6500 5400 50  0000 C CNN
-	1    6500 5400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L LED D145
-U 1 1 59332FC5
-P 6500 4750
-F 0 "D145" H 6500 4850 50  0000 C CNN
-F 1 "LED" H 6500 4650 50  0000 C CNN
-F 2 "Footprint:LED_TH_BIVAR" H 6500 4750 50  0001 C CNN
-F 3 "" H 6500 4750 50  0000 C CNN
-	1    6500 4750
-	0    -1   -1   0   
-$EndComp
 Connection ~ 6200 5250
 Wire Wire Line
 	6500 5600 6500 5550
 Connection ~ 6200 5600
 Connection ~ 6200 4600
 Connection ~ 6200 4950
-$Comp
-L LED D146
-U 1 1 5934AE6B
-P 6200 4100
-F 0 "D146" H 6200 4200 50  0000 C CNN
-F 1 "LED" H 6200 4000 50  0000 C CNN
-F 2 "Footprint:LED_TH_BIVAR" H 6200 4100 50  0001 C CNN
-F 3 "" H 6200 4100 50  0000 C CNN
-	1    6200 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L LED D147
-U 1 1 5934C32E
-P 6500 4100
-F 0 "D147" H 6500 4200 50  0000 C CNN
-F 1 "LED" H 6500 4000 50  0000 C CNN
-F 2 "Footprint:LED_TH_BIVAR" H 6500 4100 50  0001 C CNN
-F 3 "" H 6500 4100 50  0000 C CNN
-	1    6500 4100
-	0    -1   -1   0   
-$EndComp
 Connection ~ 6200 3950
 Wire Wire Line
 	6200 4300 6200 4250
 Wire Wire Line
 	6500 4300 6500 4250
 Connection ~ 6200 4300
-$Comp
-L LED D148
-U 1 1 5934DE0E
-P 6200 3450
-F 0 "D148" H 6200 3550 50  0000 C CNN
-F 1 "LED" H 6200 3350 50  0000 C CNN
-F 2 "Footprint:LED_TH_BIVAR" H 6200 3450 50  0001 C CNN
-F 3 "" H 6200 3450 50  0000 C CNN
-	1    6200 3450
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6200 3650 6200 3600
 Wire Wire Line
@@ -1466,4 +1458,16 @@ Wire Notes Line
 	6750 5700 900  5700
 Wire Notes Line
 	900  5700 900  2550
+Wire Wire Line
+	3000 1750 2050 1750
+Wire Wire Line
+	2050 950  3900 950 
+Wire Wire Line
+	3550 1200 3900 1200
+Wire Notes Line
+	4200 650  4200 2450
+Wire Notes Line
+	4200 2450 900  2450
+Wire Notes Line
+	900  650  4200 650 
 $EndSCHEMATC

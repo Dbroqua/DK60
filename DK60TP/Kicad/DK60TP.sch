@@ -327,6 +327,249 @@ F 3 "" H 4850 950 50  0001 C CNN
 	1    4850 950 
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 5550 850  1250 150 
+U 5932D4E4
+F0 "BACKLIT" 60
+F1 "BACKLIT.sch" 60
+$EndSheet
+Text GLabel 2500 1950 0    60   Input ~ 0
+BACKLIT
+$Sheet
+S 5550 1250 1250 150 
+U 593532A7
+F0 "Function Leds" 60
+F1 "Function_leds.sch" 60
+$EndSheet
+$Comp
+L GND #PWR010
+U 1 1 59349AA8
+P 1450 3000
+F 0 "#PWR010" H 1450 2750 50  0001 C CNN
+F 1 "GND" H 1450 2850 50  0000 C CNN
+F 2 "" H 1450 3000 50  0001 C CNN
+F 3 "" H 1450 3000 50  0001 C CNN
+	1    1450 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 850  0    60   Input ~ 0
+CAPS_LED
+$Sheet
+S 4700 3600 1050 450 
+U 5934BBCF
+F0 "TRACKPOINT" 60
+F1 "TRACKPOINT.sch" 60
+F2 "Col5" I L 4700 3650 60 
+F3 "Col4" I L 4700 3750 60 
+F4 "Col3" I L 4700 3850 60 
+F5 "Row4" I L 4700 3950 60 
+F6 "D2" I R 5750 3650 60 
+F7 "D5" I R 5750 3750 60 
+F8 "GND" I R 5750 3850 60 
+F9 "VCC" I R 5750 3950 60 
+$EndSheet
+Text GLabel 2500 1650 0    60   Input ~ 0
+Col5
+Text GLabel 4650 2250 2    60   Input ~ 0
+Col4
+Text GLabel 4650 1250 2    60   Input ~ 0
+Col3
+Text GLabel 4650 2050 2    60   Input ~ 0
+Row4
+Text GLabel 4650 1650 2    60   Input ~ 0
+Col0
+Text GLabel 4650 1450 2    60   Input ~ 0
+Col1
+Text GLabel 4650 1350 2    60   Input ~ 0
+Col2
+Text GLabel 4650 2650 2    60   Input ~ 0
+Col6
+Text GLabel 2500 1850 0    60   Input ~ 0
+Col7
+Text GLabel 4650 2750 2    60   Input ~ 0
+Col8
+Text GLabel 4650 2450 2    60   Input ~ 0
+Col9
+Text GLabel 2500 2850 0    60   Input ~ 0
+ColA
+Text GLabel 2500 2650 0    60   Input ~ 0
+ColB
+Text GLabel 2500 2550 0    60   Input ~ 0
+ColC
+Text GLabel 2500 1550 0    60   Input ~ 0
+ColD
+Text GLabel 4650 1550 2    60   Input ~ 0
+Row0
+Text GLabel 4650 2150 2    60   Input ~ 0
+Row1
+Text GLabel 4650 2350 2    60   Input ~ 0
+Row2
+Text GLabel 2500 1750 0    60   Input ~ 0
+Row3
+$Comp
+L GND #PWR011
+U 1 1 593621F1
+P 4900 1750
+F 0 "#PWR011" H 4900 1500 50  0001 C CNN
+F 1 "GND" H 4900 1600 50  0000 C CNN
+F 2 "" H 4900 1750 50  0001 C CNN
+F 3 "" H 4900 1750 50  0001 C CNN
+	1    4900 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR012
+U 1 1 593B1C08
+P 5250 800
+F 0 "#PWR012" H 5250 650 50  0001 C CNN
+F 1 "VCC" H 5250 950 50  0000 C CNN
+F 2 "" H 5250 800 50  0001 C CNN
+F 3 "" H 5250 800 50  0001 C CNN
+	1    5250 800 
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 7000 850  1250 150 
+U 5935238D
+F0 "MATRIX" 60
+F1 "MATRIX.sch" 60
+$EndSheet
+Text GLabel 7950 2800 2    60   Input ~ 0
+RESET
+Text GLabel 2500 2050 0    60   Input ~ 0
+RESET
+$Comp
+L VCC #PWR013
+U 1 1 59395D72
+P 1800 1750
+F 0 "#PWR013" H 1800 1600 50  0001 C CNN
+F 1 "VCC" H 1800 1900 50  0000 C CNN
+F 2 "" H 1800 1750 50  0001 C CNN
+F 3 "" H 1800 1750 50  0001 C CNN
+	1    1800 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 9600 1100 1    60   Input ~ 0
+XTAL2
+Text GLabel 8700 1100 1    60   Input ~ 0
+XTAL1
+Text GLabel 2500 2450 0    60   Input ~ 0
+XTAL2
+Text GLabel 2500 2350 0    60   Input ~ 0
+XTAL1
+Text Notes 5600 700  0    60   ~ 0
+External sheets
+Text Notes 5600 2250 0    60   ~ 0
+Power decoupling
+Text Notes 6900 2250 0    60   ~ 0
+Reset
+Text Notes 8600 700  0    60   ~ 0
+Clock
+Text Notes 700  700  0    60   ~ 0
+µControler
+$Sheet
+S 7000 1250 1250 150 
+U 593984AD
+F0 "RGB Underglow" 60
+F1 "RGB_UNDERGLOW.sch" 60
+$EndSheet
+$Sheet
+S 7000 1650 1250 150 
+U 5939867D
+F0 "Mounting Holes" 60
+F1 "HOLES.sch" 60
+$EndSheet
+Text GLabel 4650 2550 2    60   Input ~ 0
+RGB
+$Comp
+L CONN_02X04 P1
+U 1 1 593CBA33
+P 4050 4600
+F 0 "P1" H 4050 4850 50  0000 C CNN
+F 1 "CONN_02X04" H 4050 4350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x04" H 4050 3400 50  0001 C CNN
+F 3 "" H 4050 3400 50  0000 C CNN
+	1    4050 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 4550 0    60   Input ~ 0
+Col5
+Text GLabel 3800 4650 0    60   Input ~ 0
+Col4
+Text GLabel 3800 4750 0    60   Input ~ 0
+Col3
+Text GLabel 4300 4750 2    60   Input ~ 0
+Row4
+$Comp
+L GND #PWR014
+U 1 1 593CBEF2
+P 4950 4750
+F 0 "#PWR014" H 4950 4500 50  0001 C CNN
+F 1 "GND" H 4950 4600 50  0000 C CNN
+F 2 "" H 4950 4750 50  0001 C CNN
+F 3 "" H 4950 4750 50  0001 C CNN
+	1    4950 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 4650 2    60   Input ~ 0
+D5
+Text GLabel 4300 4550 2    60   Input ~ 0
+D2
+$Comp
+L MISC M1
+U 1 1 593CCEE2
+P 1450 5800
+F 0 "M1" H 1450 5950 60  0000 C CNN
+F 1 "MISC" H 1450 5650 60  0000 C CNN
+F 2 "Footprint:BreakHoles" H 1450 5800 60  0001 C CNN
+F 3 "" H 1450 5800 60  0000 C CNN
+	1    1450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MISC M3
+U 1 1 593CCFFA
+P 1800 5800
+F 0 "M3" H 1800 5950 60  0000 C CNN
+F 1 "MISC" H 1800 5650 60  0000 C CNN
+F 2 "Footprint:BreakHoles" H 1800 5800 60  0001 C CNN
+F 3 "" H 1800 5800 60  0000 C CNN
+	1    1800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MISC M2
+U 1 1 593CD07A
+P 1450 6250
+F 0 "M2" H 1450 6400 60  0000 C CNN
+F 1 "MISC" H 1450 6100 60  0000 C CNN
+F 2 "Footprint:BreakHoles" H 1450 6250 60  0001 C CNN
+F 3 "" H 1450 6250 60  0000 C CNN
+	1    1450 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MISC M4
+U 1 1 593CD101
+P 1800 6250
+F 0 "M4" H 1800 6400 60  0000 C CNN
+F 1 "MISC" H 1800 6100 60  0000 C CNN
+F 2 "Footprint:BreakHoles" H 1800 6250 60  0001 C CNN
+F 3 "" H 1800 6250 60  0000 C CNN
+	1    1800 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR015
+U 1 1 593CBBEA
+P 3700 4350
+F 0 "#PWR015" H 3700 4200 50  0001 C CNN
+F 1 "VCC" H 3700 4500 50  0000 C CNN
+F 2 "" H 3700 4350 50  0001 C CNN
+F 3 "" H 3700 4350 50  0001 C CNN
+	1    3700 4350
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5650 2550 5650 2700
 Wire Wire Line
@@ -394,112 +637,13 @@ Wire Wire Line
 	5150 2450 5150 2600
 Wire Wire Line
 	4650 950  4850 950 
-$Sheet
-S 5550 850  1250 150 
-U 5932D4E4
-F0 "BACKLIT" 60
-F1 "BACKLIT.sch" 60
-$EndSheet
-Text GLabel 2500 1950 0    60   Input ~ 0
-BACKLIT
-$Sheet
-S 5550 1250 1250 150 
-U 593532A7
-F0 "Function Leds" 60
-F1 "Function_leds.sch" 60
-$EndSheet
-$Comp
-L GND #PWR010
-U 1 1 59349AA8
-P 1450 3000
-F 0 "#PWR010" H 1450 2750 50  0001 C CNN
-F 1 "GND" H 1450 2850 50  0000 C CNN
-F 2 "" H 1450 3000 50  0001 C CNN
-F 3 "" H 1450 3000 50  0001 C CNN
-	1    1450 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 2250 2500 2250
-Text GLabel 2500 850  0    60   Input ~ 0
-CAPS_LED
-$Sheet
-S 5550 1650 1250 150 
-U 5934BBCF
-F0 "TRACKPOINT" 60
-F1 "TRACKPOINT.sch" 60
-$EndSheet
-Text GLabel 2500 1650 0    60   Input ~ 0
-Col5
-Text GLabel 4650 2250 2    60   Input ~ 0
-Col4
-Text GLabel 4650 1250 2    60   Input ~ 0
-Col3
-Text GLabel 4650 2050 2    60   Input ~ 0
-Row4
-Text GLabel 4650 1650 2    60   Input ~ 0
-Col0
-Text GLabel 4650 1450 2    60   Input ~ 0
-Col1
-Text GLabel 4650 1350 2    60   Input ~ 0
-Col2
-Text GLabel 4650 2650 2    60   Input ~ 0
-Col6
-Text GLabel 2500 1850 0    60   Input ~ 0
-Col7
-Text GLabel 4650 2750 2    60   Input ~ 0
-Col8
-Text GLabel 4650 2450 2    60   Input ~ 0
-Col9
-Text GLabel 2500 2850 0    60   Input ~ 0
-ColA
-Text GLabel 2500 2650 0    60   Input ~ 0
-ColB
-Text GLabel 2500 2550 0    60   Input ~ 0
-ColC
-Text GLabel 2500 1550 0    60   Input ~ 0
-ColD
-Text GLabel 4650 1550 2    60   Input ~ 0
-Row0
-Text GLabel 4650 2150 2    60   Input ~ 0
-Row1
-Text GLabel 4650 2350 2    60   Input ~ 0
-Row2
-Text GLabel 2500 1750 0    60   Input ~ 0
-Row3
-$Comp
-L GND #PWR011
-U 1 1 593621F1
-P 4900 1750
-F 0 "#PWR011" H 4900 1500 50  0001 C CNN
-F 1 "GND" H 4900 1600 50  0000 C CNN
-F 2 "" H 4900 1750 50  0001 C CNN
-F 3 "" H 4900 1750 50  0001 C CNN
-	1    4900 1750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L VCC #PWR012
-U 1 1 593B1C08
-P 5250 800
-F 0 "#PWR012" H 5250 650 50  0001 C CNN
-F 1 "VCC" H 5250 950 50  0000 C CNN
-F 2 "" H 5250 800 50  0001 C CNN
-F 3 "" H 5250 800 50  0001 C CNN
-	1    5250 800 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4650 1750 4900 1750
 Wire Wire Line
 	4650 1850 5250 1850
 Connection ~ 5250 1850
-$Sheet
-S 7000 850  1250 150 
-U 5935238D
-F0 "MATRIX" 60
-F1 "MATRIX.sch" 60
-$EndSheet
 Wire Wire Line
 	4650 850  5250 850 
 Connection ~ 5250 850 
@@ -526,10 +670,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 2800 7950 2800
 Connection ~ 7700 2800
-Text GLabel 7950 2800 2    60   Input ~ 0
-RESET
-Text GLabel 2500 2050 0    60   Input ~ 0
-RESET
 Wire Notes Line
 	6800 2100 6800 3250
 Wire Notes Line
@@ -538,17 +678,6 @@ Wire Notes Line
 	6800 2100 8400 2100
 Wire Wire Line
 	2000 1450 2000 2150
-$Comp
-L VCC #PWR013
-U 1 1 59395D72
-P 1800 1750
-F 0 "#PWR013" H 1800 1600 50  0001 C CNN
-F 1 "VCC" H 1800 1900 50  0000 C CNN
-F 2 "" H 1800 1750 50  0001 C CNN
-F 3 "" H 1800 1750 50  0001 C CNN
-	1    1800 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 1750 2000 1750
 Connection ~ 2000 1750
@@ -563,32 +692,14 @@ Wire Wire Line
 Wire Wire Line
 	9600 1650 9600 1500
 Connection ~ 9150 1650
-Text GLabel 9600 1100 1    60   Input ~ 0
-XTAL2
-Text GLabel 8700 1100 1    60   Input ~ 0
-XTAL1
-Text GLabel 2500 2450 0    60   Input ~ 0
-XTAL2
-Text GLabel 2500 2350 0    60   Input ~ 0
-XTAL1
 Wire Notes Line
 	8500 550  9800 550 
-Text Notes 5600 700  0    60   ~ 0
-External sheets
 Wire Notes Line
 	5500 3250 6700 3250
-Text Notes 5600 2250 0    60   ~ 0
-Power decoupling
 Wire Notes Line
 	8400 3250 6800 3250
-Text Notes 6900 2250 0    60   ~ 0
-Reset
 Wire Wire Line
 	6950 2950 6950 3000
-Text Notes 8600 700  0    60   ~ 0
-Clock
-Text Notes 700  700  0    60   ~ 0
-µControler
 Wire Wire Line
 	5250 800  5250 2850
 Wire Notes Line
@@ -611,20 +722,6 @@ Wire Notes Line
 	9800 550  9800 2000
 Wire Notes Line
 	8500 2000 8500 550 
-$Sheet
-S 7000 1250 1250 150 
-U 593984AD
-F0 "RGB Underglow" 60
-F1 "RGB_UNDERGLOW.sch" 60
-$EndSheet
-$Sheet
-S 7000 1650 1250 150 
-U 5939867D
-F0 "Mounting Holes" 60
-F1 "HOLES.sch" 60
-$EndSheet
-Text GLabel 4650 2550 2    60   Input ~ 0
-RGB
 Wire Wire Line
 	1450 1250 1450 3000
 Connection ~ 1450 1450
@@ -640,4 +737,12 @@ Wire Wire Line
 	1800 850  1800 950 
 Wire Notes Line
 	9800 2000 8500 2000
+Wire Wire Line
+	3700 4350 3700 4450
+Wire Wire Line
+	3700 4450 3800 4450
+Wire Wire Line
+	4300 4450 4950 4450
+Wire Wire Line
+	4950 4450 4950 4750
 $EndSCHEMATC

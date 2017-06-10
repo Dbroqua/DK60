@@ -30,7 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:keyboard_parts
 LIBS:mkl27z256vfm4
-LIBS:TS65
 LIBS:DK60TP-cache
 EELAYER 25 0
 EELAYER END
@@ -176,4 +175,47 @@ Wire Notes Line
 	650  3900 650  3100
 Text Notes 800  3300 0    60   ~ 0
 Logos
+Wire Notes Line
+	650  4000 5500 4000
+Wire Notes Line
+	5500 4000 5500 4800
+Wire Notes Line
+	5500 4800 650  4800
+Wire Notes Line
+	650  4800 650  4000
+Text Notes 800  4200 0    60   ~ 0
+Mouse buttons PCB
+$Comp
+L MOUNT_HOLE MH11
+U 1 1 593CB643
+P 1500 4500
+F 0 "MH11" H 1500 4650 60  0000 C CNN
+F 1 "MB_LEFT" H 1500 4350 60  0000 C CNN
+F 2 "Footprint:Poker_oval_hole" H 1500 4500 60  0001 C CNN
+F 3 "" H 1500 4500 60  0000 C CNN
+	1    1500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT_HOLE MH13
+U 1 1 593CB6EE
+P 4900 4500
+F 0 "MH13" H 4900 4650 60  0000 C CNN
+F 1 "MB_RIGHT" H 4900 4350 60  0000 C CNN
+F 2 "Footprint:Poker_oval_hole" H 4900 4500 60  0001 C CNN
+F 3 "" H 4900 4500 60  0000 C CNN
+	1    4900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT_HOLE MH12
+U 1 1 593CB794
+P 3250 4500
+F 0 "MH12" H 3250 4650 60  0000 C CNN
+F 1 "MB_CENTER" H 3250 4350 60  0000 C CNN
+F 2 "Footprint:Poker_oval_hole" H 3250 4500 60  0001 C CNN
+F 3 "" H 3250 4500 60  0000 C CNN
+	1    3250 4500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -24,7 +24,7 @@ Bottom row:
 ## DK60TP
 :warning: Still in development :warning:
 
-DK60TP is just a big update of DK60 with support for IBM Trackpoint and backlit.
+DK60TP is just a big update of DK60 with support for IBM Trackpoint, backlit and RGB underglow.
 
 My goal is to recreate a Tex Yoga like but with many custom layouts.
 
@@ -38,8 +38,6 @@ Electronic is divided in 3 parts:
 ![PCB](./Previews/DK60TP-PCB.png "PCB")
 
 ![PCB](./Previews/DK60TP-PCB-FRONT.png "PCB Front")
-
-![PCB](./Previews/MouseButtons.png "Mouse buttons PCB")
 
 ## Firmware
 DK60 is officially supported by QMK: https://github.com/qmk/qmk_firmware/tree/master/keyboards/dk60

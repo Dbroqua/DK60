@@ -184,7 +184,7 @@ U 1 1 593C4069
 P 2150 1400
 F 0 "P3" H 2150 1700 50  0000 C CNN
 F 1 "TRACKPOINT" V 2250 1400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05" H 2150 1400 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53048-0510_05x1.25mm_Angled" H 2150 1400 50  0001 C CNN
 F 3 "" H 2150 1400 50  0000 C CNN
 	1    2150 1400
 	-1   0    0    1   
@@ -279,7 +279,7 @@ U 1 1 593C4FB5
 P 8550 1250
 F 0 "P2" H 8550 1500 50  0000 C CNN
 F 1 "MAIN_BOARD" H 8550 950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x05" H 8550 50  50  0001 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53048-1010_10x1.25mm_Angled" H 8550 50  50  0001 C CNN
 F 3 "" H 8550 50  50  0000 C CNN
 	1    8550 1250
 	1    0    0    -1  
@@ -294,19 +294,19 @@ Text Label 3000 1900 0    60   ~ 0
 D2
 Text Label 1350 1350 0    60   ~ 0
 D2
-Text Label 8800 1150 0    60   ~ 0
+Text Label 8050 1350 0    60   ~ 0
 D2
 Text Label 1350 800  0    60   ~ 0
 Col5
 Text Label 7550 1000 0    60   ~ 0
 Col5
-Text Label 8050 1150 0    60   ~ 0
+Text Label 8050 1250 0    60   ~ 0
 Col5
 Wire Wire Line
 	8050 1150 8300 1150
 Text Label 1350 900  0    60   ~ 0
 Col4
-Text Label 8050 1250 0    60   ~ 0
+Text Label 8800 1150 0    60   ~ 0
 Col4
 Wire Wire Line
 	8050 1250 8300 1250
@@ -314,7 +314,7 @@ Text Label 6700 1000 0    60   ~ 0
 Col4
 Text Label 1350 1050 0    60   ~ 0
 Col3
-Text Label 8050 1350 0    60   ~ 0
+Text Label 8050 1150 0    60   ~ 0
 Col3
 Text Label 5850 1000 0    60   ~ 0
 Col3

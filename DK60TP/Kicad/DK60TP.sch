@@ -489,16 +489,16 @@ U 1 1 593CBA33
 P 5350 4050
 F 0 "P1" H 5350 4300 50  0000 C CNN
 F 1 "CONN_02X04" H 5350 3750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x05" H 5350 2850 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53048-1010_10x1.25mm_Angled" H 5350 2850 50  0001 C CNN
 F 3 "" H 5350 2850 50  0000 C CNN
 	1    5350 4050
 	1    0    0    -1  
 $EndComp
-Text GLabel 5100 3950 0    60   Input ~ 0
-Col5
 Text GLabel 5100 4050 0    60   Input ~ 0
+Col5
+Text GLabel 5600 3950 2    60   Input ~ 0
 Col4
-Text GLabel 5100 4150 0    60   Input ~ 0
+Text GLabel 5100 3950 0    60   Input ~ 0
 Col3
 Text GLabel 5600 4150 2    60   Input ~ 0
 Row4
@@ -515,7 +515,7 @@ F 3 "" H 6250 4150 50  0001 C CNN
 $EndComp
 Text GLabel 5600 4050 2    60   Input ~ 0
 D5
-Text GLabel 5600 3950 2    60   Input ~ 0
+Text GLabel 5100 4150 0    60   Input ~ 0
 D2
 $Comp
 L MISC M1

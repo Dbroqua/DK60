@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:keyboard_parts
 LIBS:mkl27z256vfm4
+LIBS:TS65
 LIBS:DK60TP-cache
 EELAYER 25 0
 EELAYER END
@@ -188,17 +189,17 @@ F 3 "" H 2150 1400 50  0000 C CNN
 	1    2150 1400
 	-1   0    0    1   
 $EndComp
-Text HLabel 1100 900  0    60   Input ~ 0
+Text HLabel 1100 800  0    60   Input ~ 0
 Col5
-Text HLabel 1100 1050 0    60   Input ~ 0
+Text HLabel 1100 900  0    60   Input ~ 0
 Col4
-Text HLabel 1100 1200 0    60   Input ~ 0
+Text HLabel 1100 1050 0    60   Input ~ 0
 Col3
-Text HLabel 1100 1350 0    60   Input ~ 0
+Text HLabel 1100 1200 0    60   Input ~ 0
 Row4
-Text HLabel 1100 1500 0    60   Input ~ 0
+Text HLabel 1100 1350 0    60   Input ~ 0
 D2
-Text HLabel 1100 1650 0    60   Input ~ 0
+Text HLabel 1100 1500 0    60   Input ~ 0
 D5
 Text HLabel 1100 1800 0    60   Input ~ 0
 GND
@@ -273,17 +274,17 @@ Wire Wire Line
 Text Notes 8300 850  0    60   ~ 0
 Connector
 $Comp
-L CONN_02X04 P2
+L CONN_02X05 P2
 U 1 1 593C4FB5
-P 8550 1200
-F 0 "P2" H 8550 1450 50  0000 C CNN
+P 8550 1250
+F 0 "P2" H 8550 1500 50  0000 C CNN
 F 1 "MAIN_BOARD" H 8550 950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x04" H 8550 0   50  0001 C CNN
-F 3 "" H 8550 0   50  0000 C CNN
-	1    8550 1200
+F 2 "Pin_Headers:Pin_Header_Angled_2x05" H 8550 50  50  0001 C CNN
+F 3 "" H 8550 50  50  0000 C CNN
+	1    8550 1250
 	1    0    0    -1  
 $EndComp
-Text Label 1350 1650 0    60   ~ 0
+Text Label 1350 1500 0    60   ~ 0
 D5
 Text Label 8800 1250 0    60   ~ 0
 D5
@@ -291,11 +292,11 @@ Text Label 2450 1000 0    60   ~ 0
 D5
 Text Label 3000 1900 0    60   ~ 0
 D2
-Text Label 1350 1500 0    60   ~ 0
+Text Label 1350 1350 0    60   ~ 0
 D2
 Text Label 8800 1150 0    60   ~ 0
 D2
-Text Label 1350 900  0    60   ~ 0
+Text Label 1350 800  0    60   ~ 0
 Col5
 Text Label 7550 1000 0    60   ~ 0
 Col5
@@ -303,7 +304,7 @@ Text Label 8050 1150 0    60   ~ 0
 Col5
 Wire Wire Line
 	8050 1150 8300 1150
-Text Label 1350 1050 0    60   ~ 0
+Text Label 1350 900  0    60   ~ 0
 Col4
 Text Label 8050 1250 0    60   ~ 0
 Col4
@@ -311,7 +312,7 @@ Wire Wire Line
 	8050 1250 8300 1250
 Text Label 6700 1000 0    60   ~ 0
 Col4
-Text Label 1350 1200 0    60   ~ 0
+Text Label 1350 1050 0    60   ~ 0
 Col3
 Text Label 8050 1350 0    60   ~ 0
 Col3
@@ -319,7 +320,7 @@ Text Label 5850 1000 0    60   ~ 0
 Col3
 Wire Wire Line
 	8050 1350 8300 1350
-Text Label 1350 1350 0    60   ~ 0
+Text Label 1350 1200 0    60   ~ 0
 Row4
 Text Label 8800 1350 0    60   ~ 0
 Row4
@@ -354,11 +355,9 @@ Wire Wire Line
 Wire Notes Line
 	4650 700  7850 700 
 Wire Notes Line
-	7850 700  7850 2000
+	7850 700  7850 2100
 Wire Notes Line
-	7850 2000 4650 2000
-Wire Notes Line
-	4650 2000 4650 700 
+	4650 700  4650 2100
 Text Notes 2050 850  0    60   ~ 0
 Trackpoint
 Wire Wire Line
@@ -366,19 +365,15 @@ Wire Wire Line
 Wire Notes Line
 	1900 700  4550 700 
 Wire Notes Line
-	1900 700  1900 2000
+	1900 700  1900 2100
 Wire Notes Line
-	1900 2000 4550 2000
-Wire Notes Line
-	4550 2000 4550 700 
+	4550 700  4550 2100
 Wire Notes Line
 	7950 700  9150 700 
 Wire Notes Line
-	7950 700  7950 1550
+	7950 700  7950 2100
 Wire Notes Line
-	7950 1550 9150 1550
-Wire Notes Line
-	9150 1550 9150 700 
+	9150 700  9150 2100
 Wire Notes Line
 	700  700  1700 700 
 Wire Notes Line
@@ -387,4 +382,146 @@ Wire Notes Line
 	700  2100 1700 2100
 Wire Notes Line
 	1700 2100 1700 700 
+$Comp
+L WS2812B D154
+U 1 1 593D8D65
+P 2000 2750
+F 0 "D154" H 1850 2950 50  0000 L CNN
+F 1 "WS2812B" H 1800 2550 50  0000 L CNN
+F 2 "Footprint:WS2812B" H 2000 2750 50  0001 L CNN
+F 3 "" H 2000 2750 60  0000 C CNN
+	1    2000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B D155
+U 1 1 593D8DC9
+P 2000 3350
+F 0 "D155" H 1850 3550 50  0000 L CNN
+F 1 "WS2812B" H 1800 3150 50  0000 L CNN
+F 2 "Footprint:WS2812B" H 2000 3350 50  0001 L CNN
+F 3 "" H 2000 3350 60  0000 C CNN
+	1    2000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B D156
+U 1 1 593D8E2F
+P 2000 3950
+F 0 "D156" H 1850 4150 50  0000 L CNN
+F 1 "WS2812B" H 1800 3750 50  0000 L CNN
+F 2 "Footprint:WS2812B" H 2000 3950 50  0001 L CNN
+F 3 "" H 2000 3950 60  0000 C CNN
+	1    2000 3950
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4550 2100 1900 2100
+Wire Notes Line
+	4650 2100 7850 2100
+Wire Notes Line
+	9150 2100 7950 2100
+Text Label 1000 2400 0    60   ~ 0
+VCC
+Wire Wire Line
+	1000 2650 1750 2650
+Wire Wire Line
+	1750 2850 1650 2850
+Wire Wire Line
+	1650 2850 1650 3050
+Wire Wire Line
+	1650 3050 2350 3050
+Wire Wire Line
+	2350 3050 2350 3250
+Wire Wire Line
+	2350 3250 2250 3250
+Wire Wire Line
+	1650 3650 2350 3650
+Wire Wire Line
+	2350 3650 2350 3850
+Wire Wire Line
+	2350 3850 2250 3850
+Text Label 2650 4350 0    60   ~ 0
+GND
+Wire Wire Line
+	2250 4050 2650 4050
+Wire Wire Line
+	2650 2850 2650 4350
+Wire Wire Line
+	2250 3450 2650 3450
+Connection ~ 2650 4050
+Wire Wire Line
+	2250 2850 2650 2850
+Connection ~ 2650 3450
+Wire Wire Line
+	1750 3450 1650 3450
+Wire Wire Line
+	1650 3450 1650 3650
+$Comp
+L C C17
+U 1 1 593DAB4F
+P 1300 2800
+F 0 "C17" H 1325 2900 50  0000 L CNN
+F 1 "0.1u" H 1325 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1338 2650 50  0001 C CNN
+F 3 "" H 1300 2800 50  0000 C CNN
+	1    1300 2800
+	1    0    0    -1  
+$EndComp
+Text Label 1300 3050 0    60   ~ 0
+GND
+Wire Wire Line
+	1300 2950 1300 3050
+Wire Wire Line
+	1000 2400 1000 3850
+Connection ~ 1300 2650
+Wire Wire Line
+	1000 3250 1750 3250
+Connection ~ 1000 2650
+Wire Wire Line
+	1000 3850 1750 3850
+Connection ~ 1000 3250
+$Comp
+L C C18
+U 1 1 593DB8F3
+P 1300 3400
+F 0 "C18" H 1325 3500 50  0000 L CNN
+F 1 "0.1u" H 1325 3300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1338 3250 50  0001 C CNN
+F 3 "" H 1300 3400 50  0000 C CNN
+	1    1300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C19
+U 1 1 593DB954
+P 1300 4000
+F 0 "C19" H 1325 4100 50  0000 L CNN
+F 1 "0.1u" H 1325 3900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1338 3850 50  0001 C CNN
+F 3 "" H 1300 4000 50  0000 C CNN
+	1    1300 4000
+	1    0    0    -1  
+$EndComp
+Text Label 1300 3650 0    60   ~ 0
+GND
+Wire Wire Line
+	1300 4150 1300 4300
+Wire Wire Line
+	1300 4300 2650 4300
+Connection ~ 2650 4300
+Wire Wire Line
+	1300 3550 1300 3650
+Text Label 2250 2650 0    60   ~ 0
+RGB
+Text Label 8800 1450 0    60   ~ 0
+RGB
+Text HLabel 1100 1650 0    60   Input ~ 0
+RGB
+Text Label 1350 1650 0    60   ~ 0
+RGB
+Wire Wire Line
+	1100 800  1350 800 
+Connection ~ 1300 3250
+Connection ~ 1300 3850
 $EndSCHEMATC

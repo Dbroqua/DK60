@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:keyboard_parts
 LIBS:mkl27z256vfm4
+LIBS:TS65
 LIBS:DK60TP-cache
 EELAYER 25 0
 EELAYER END

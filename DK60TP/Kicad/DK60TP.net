@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dbroqua/Webstorm/dbroqua/DK60/DK60TP/Kicad/DK60TP.sch)
-    (date "Mon 12 Jun 2017 08:52:57 AM CEST")
+    (date "Mon 12 Jun 2017 10:44:58 PM CEST")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -760,7 +760,7 @@
       (sheetpath (names /TRACKPOINT/) (tstamps /5934BBCF/))
       (tstamp 593C13CC))
     (comp (ref KM540)
-      (value KEYSW)
+      (value RMB)
       (footprint Footprint:Mx_100)
       (libsource (lib keyboard_parts) (part KEYSW))
       (sheetpath (names /TRACKPOINT/) (tstamps /5934BBCF/))
@@ -2135,14 +2135,14 @@
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical keyboard_parts)
-      (uri /home/dbroqua/Webstorm/dbroqua/DK60/DK60TP/Kicad/../../Libraries/keyboard_parts.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical TS65)
-      (uri /home/dbroqua/Webstorm/dbroqua/DK60/Libraries/TS65.lib)))
+      (uri /home/dbroqua/Webstorm/dbroqua/DK60/Libraries/TS65.lib))
+    (library (logical keyboard_parts)
+      (uri /home/dbroqua/Webstorm/dbroqua/DK60/DK60TP/Kicad/../../Libraries/keyboard_parts.lib)))
   (nets
     (net (code 1) (name "Net-(P1-Pad9)")
       (node (ref P1) (pin 9)))

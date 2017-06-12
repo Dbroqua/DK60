@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/dbroqua/WebstormProjects/dbroqua/DK60/DK60TP/Kicad/DK60TP.sch)
-    (date "Sun 11 Jun 2017 11:02:33 PM CEST")
+    (source /home/dbroqua/Webstorm/dbroqua/DK60/DK60TP/Kicad/DK60TP.sch)
+    (date "Mon 12 Jun 2017 08:52:57 AM CEST")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1817,7 +1817,7 @@
       (tstamp 593563A8))
     (comp (ref J2)
       (value 3PIN)
-      (footprint Pin_Headers:Pin_Header_Angled_1x03)
+      (footprint Connectors_Molex:Molex_PicoBlade_53048-0310_03x1.25mm_Angled)
       (libsource (lib TS65) (part 3PIN))
       (sheetpath (names "/RGB Underglow/") (tstamps /593984AD/))
       (tstamp 593568B8))
@@ -2139,10 +2139,10 @@
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical TS65)
-      (uri /home/dbroqua/Webstorm/dbroqua/DK60/Libraries/TS65.lib))
     (library (logical keyboard_parts)
-      (uri /home/dbroqua/WebstormProjects/dbroqua/DK60/DK60TP/Kicad/../../Libraries/keyboard_parts.lib)))
+      (uri /home/dbroqua/Webstorm/dbroqua/DK60/DK60TP/Kicad/../../Libraries/keyboard_parts.lib))
+    (library (logical TS65)
+      (uri /home/dbroqua/Webstorm/dbroqua/DK60/Libraries/TS65.lib)))
   (nets
     (net (code 1) (name "Net-(P1-Pad9)")
       (node (ref P1) (pin 9)))

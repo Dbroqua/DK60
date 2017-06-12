@@ -219,7 +219,7 @@ U 1 1 593568B8
 P 4450 2100
 F 0 "J2" H 4400 2300 60  0000 C CNN
 F 1 "3PIN" H 4400 1900 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 4450 2100 60  0001 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53048-0310_03x1.25mm_Angled" H 4450 2100 60  0001 C CNN
 F 3 "" H 4450 2100 60  0000 C CNN
 	1    4450 2100
 	1    0    0    -1  

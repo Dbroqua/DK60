@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dbroqua/Webstorm/dbroqua/DK60/DK60TP/Kicad/DK60TP.sch)
-    (date "Mon 12 Jun 2017 10:44:58 PM CEST")
+    (date "Tue 13 Jun 2017 10:49:16 AM CEST")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -178,7 +178,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5920B2C4))
     (comp (ref P1)
-      (value CONN_02X04)
+      (value MOUSE_BOARD)
       (footprint Connectors_Molex:Molex_PicoBlade_53048-1010_10x1.25mm_Angled)
       (libsource (lib conn) (part CONN_02X05))
       (sheetpath (names /) (tstamps /))
@@ -1816,7 +1816,7 @@
       (sheetpath (names "/RGB Underglow/") (tstamps /593984AD/))
       (tstamp 593563A8))
     (comp (ref J2)
-      (value 3PIN)
+      (value RGB)
       (footprint Connectors_Molex:Molex_PicoBlade_53048-0310_03x1.25mm_Angled)
       (libsource (lib TS65) (part 3PIN))
       (sheetpath (names "/RGB Underglow/") (tstamps /593984AD/))
